@@ -6,7 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Title of Work</title>
-        <author>Name of Author: Catullus</author>
+        <author>Name of Author: Ps.Sallust</author>
         <editor>Name of Editor: Paul Reichetanz</editor>
       </titleStmt>
       <editionStmt>
@@ -14,7 +14,7 @@
       </editionStmt>
       <publicationStmt>
         <publisher>Universität Rostock</publisher>
-        <distributor>Block Seminar 74086</distributor>
+        <distributor>Paul Reichetanz</distributor>
         <date>2016</date>
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/"> Distributed under a
@@ -59,28 +59,20 @@
       </div>
     </front>
     <body>
-      <div type="edition" xml:id="edition-text">
-        <div type="textpart" n="1" xml:id="part1">
-          <head>Title of First Part</head>
-          <lg type="stanza">
-            <head>Poem 1</head>
-            <l n="1">Cui dono lepidum novum libellum</l>
-            <l n="2"><app>
-                <lem wit="#Servius #Pastrengicus" xml:id="lem-1.2-arida">arida</lem>
-                <witDetail wit="#Servius" target="#lem-1.2-arida">ad loc. Aen. 1.2</witDetail>
-                <rdg>arido</rdg>
-              </app> modo pumice expolitum?</l>
-            <l n="3">Corneli, tibi: namque tu solebas</l>
-            <l n="4">meas esse aliquid putare nugas</l>
-            <l n="5">iam tum, cum ausus es unus Italorum</l>
-            <l n="6">omne aevum tribue explicare cartis</l>
-            <l n="7">doctis, Iuppiter, et laboriosis.</l>
-            <l n="8">quare habe tibi quidquid hoc libelli.</l>
-            <l n="9">qualecumque quod, <supplied reason="lost">o</supplied> patrona virgo,</l>
-            <l n="10">plus uno maneat perenne saeclo.</l>
-          </lg>
+      <div type="edition">
+        <div n="1" subtype="book" type="textpart">
+            <p n="1">
+              <seg n="1">Pro vero antea obtinebat regna atque imperia fortunam dono dare, item alia quae per mortaleis avide cupiuntur, quia et apud indignos saepe erant quasi per libidinem data neque cuiquam incorrupta permanserant. </seg>
+              <seg n="2">sed res docuit id verum esse, quod in carminibus Appius ait, fabrum esse suae quemque fortunae, atque in te maxume, qui tantum alios praetergressus es, ut prius defessi sint homines laudando facta tua quam tu laude digna faciundo.</seg>
+            
+            
+            
+            </p>
+            <p n="2">
+              <seg n="1">bla bla</seg>
+            </p>
 
-
+        
           <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         </div>
         <div type="textpart" n="2" xml:id="part2">
