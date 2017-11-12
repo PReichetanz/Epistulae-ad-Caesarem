@@ -34,7 +34,7 @@
     <front xml:id="front">
       <div type="section" xml:id="preface">
         <head>Preface</head>
-        <p>General introductory remarks about the edition.</p>
+        <p>This is the critical text of the edition by Karl Vretska 1961.</p>
         <div type="section" xml:id="preface-section-1">
           <!--This is a section within the preface. Editors should use
           sections (distinguished by <div>) to organize the content of the edition's preface.-->
@@ -47,10 +47,27 @@
         in the current edition. For more information on encoding the items in the bibliography
         see section 3 Bibliography below. -->
         <div type="section" xml:id="conspectus">
-          <head>Conspectus</head>
+          <head>Conspectus siglorum</head>
           <listWit>
-            <witness xml:id="Servius"><abbr type="siglum">Servius</abbr></witness>
-            <witness xml:id="Pastrengicus"><abbr type="siglum">Pastrengicus</abbr></witness>
+            <witness xml:id="V"><abbr type="siglum">V</abbr> =<bibl> <title>cod. Vaticanus lat. 3864</title> <date>s. IX/X</date>; eadem manus nonnulla correxit</bibl> </witness>
+            <witness xml:id="V1"><abbr type="siglum">V1</abbr> = <bibl> IX saec.</bibl></witness>
+            <witness xml:id="V2"><abbr type="siglum">V2</abbr> = <bibl> XV saec.</bibl></witness>
+            <witness xml:id="V3"><abbr type="siglum">V3</abbr> = <bibl> XV saec.</bibl></witness>
+            <witness xml:id="Rom."><abbr type="siglum">Rom.</abbr> = <bibl> editio princeps Romana a. 1475</bibl></witness>
+            <witness xml:id="Mant."><abbr type="siglum">Mant.</abbr> = <bibl> editio Mantuana a. 1476-78</bibl></witness>
+            <witness xml:id="l."><abbr type="siglum">l.</abbr> = <bibl> editio Romana iterata</bibl></witness>
+            <witness xml:id="Laet."><abbr type="siglum">Laet.</abbr> = <bibl> editio Pomponii Laeti a. 1490</bibl></witness>
+            <witness xml:id="Ald."><abbr type="siglum">Ald.</abbr> = <bibl> editio Aldina a. 1522</bibl></witness>
+            <witness xml:id="As."><abbr type="siglum">As.</abbr> = <bibl> Asulanus</bibl></witness>
+            <witness xml:id="Car."><abbr type="siglum">Car.</abbr> = <bibl> Carrio</bibl></witness>
+            <witness xml:id="Ciacc."><abbr type="siglum">Ciacc.</abbr> = <bibl> Ciacconius</bibl></witness>
+            <witness xml:id="Cort."><abbr type="siglum">Cort.</abbr> = <bibl> Cortius (1724)</bibl></witness>
+            <witness xml:id="Gerl."><abbr type="siglum">Gerl.</abbr> = <bibl> Gerlach</bibl></witness>
+            <witness xml:id="Jo."><abbr type="siglum">Jo.</abbr> = <bibl> H. Jordan (1 = 1867, 2 = 1876, 3 = 1887)</bibl></witness>
+            <witness xml:id="Kurf."><abbr type="siglum">Kurf.</abbr> = <bibl> Kurfeß (1 = 1920, 2 = 1930, 3 = 1950, 4 = 1955, 5 = 1959)</bibl></witness>
+            <witness xml:id="Or."><abbr type="siglum">Or.</abbr> = <bibl> Orelli</bibl></witness>
+            <witness xml:id="Pal."><abbr type="siglum">Pal.</abbr> = <bibl> Paladini</bibl></witness>
+            <witness xml:id="Wass."><abbr type="siglum">Wass.</abbr> = <bibl> Wassius</bibl></witness>
           </listWit>
           <!--A key to the special sigla and abbreviations used in the edition (drawn
           from the @xml:id's assigned to the various items in the
@@ -63,15 +80,15 @@
         <div n="1" subtype="letter" type="textpart">
           <head>Epistlae ad Caesarem senem de re publica 1</head>
             <p n="1">1
-              <seg n="1">(1) Pro vero antea obtinebat regna atque imperia fortunam dono dare, item alia quae per mortaleis avide cupiuntur, quia et apud indignos saepe erant quasi per libidinem data neque cuiquam incorrupta permanserant. </seg>
-              <seg n="2">(2) sed res docuit id verum esse, quod in carminibus Appius ait, fabrum esse suae quemque fortunae, atque in te maxume, qui tantum alios praetergressus es, ut prius defessi sint homines laudando facta tua quam tu laude digna faciundo.</seg>
+              <seg n="1">(1) Pro vero antea obtinebat regna atque imperia <app><lem>fortunam</lem> <rdg wit="#V">fortuna</rdg></app> dono dare, item alia quae per mortaleis avide cupiuntur, quia et apud indignos saepe erant quasi per libidinem data neque cuiquam incorrupta permanserant. </seg>
+              <seg n="2">(2) sed res docuit id verum esse, quod in carminibus Appius ait, fabrum esse suae quemque fortunae, atque in te maxume, qui tantum alios praetergressus <app><lem wit="#V">es</lem><note>in ras.</note></app>, ut prius defessi sint homines laudando facta tua quam tu laude digna faciundo.</seg>
               <seg n="3">(3) ceterum ut fabricata sic virtute parta, quam magna industria haberei decet, ne incuria deformentur aut conruant infirmata.</seg>
               <seg n="4">(4) nemo enim alteri imperium volens concedit et, quamvis bonus atque clemens sit, qui plus potest tamen, quia malo esse licet, formidatur.</seg>
               <seg n="5">(5) id eo evenit, quia plerique rerum potentes pervorse consulunt et eo se munitiores putant, quo illei quibus imperitant nequiores fuere.</seg>
               <seg n="6">(6) at contra id eniti decet, cum ipse bonus atque strenuus sis, uti quam optimis imperites. nam pessumus quisque asperrume rectorem patitur.</seg>
               <seg n="7">(7) sed tibi hoc gravius est, quam ante te omnibus, armis parta componere, quod bellum aliorum pace mollius gessisti.</seg>
               <seg n="8">(8) ad hoc victores praedam petunt, victi cives sunt. inter has difficultates evadendum est tibi atque in posterum firmanda res publica non armis modo neque advorsum hostes, sed, quod multo multoque asperius est, pacis bonis artibus.</seg>
-              <seg n="9">(9) ergo omnes magna mediocri sapientia res huc vocat, quae quisque optima potest, utei dicant.</seg>
+              <seg n="9">(9) ergo omnes magna <app><lem wit="#As.">mediocri</lem><rdg wit="#V">mediocris</rdg></app> sapientia res huc vocat, quae quisque optima potest, utei dicant.</seg>
               <seg n="10">(10) ac mihi sic videtur: qualeicumque modo tu victoriam composueris, ita alia omnia futura.</seg>
               <seg n="2,1">2 (1) ac mihi sic videtur: qualeicumque modo tu victoriam composueris, ita alia omnia futura.</seg>
             </p>
