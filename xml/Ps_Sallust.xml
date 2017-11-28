@@ -84,8 +84,8 @@
                 <app><lem>fortunam</lem> <rdg wit="V">fortuna</rdg></app>
                 dono dare, item alia quae per mortaleis avide cupiuntur, quia et apud indignos saepe erant quasi per libidinem data neque cuiquam incorrupta permanserant. </seg>
               <seg n="2">(2) sed res docuit id verum esse, quod in carminibus Appius ait, fabrum esse suae quemque fortunae, atque in te maxume, qui tantum alios praetergressus 
-                <app><lem>es</lem><note>in ras.</note><rdg wit="V">es <note>in ras.</note></rdg></app>
-                , ut prius defessi sint homines laudando facta tua quam tu laude digna faciundo.</seg>
+                <app>
+                  <lem>es</lem><note>in ras.</note><rdg wit="V">es <note>in ras.</note></rdg></app>, ut prius defessi sint homines laudando facta tua quam tu laude digna faciundo.</seg>
               <seg n="3">(3) ceterum ut fabricata sic virtute parta, quam magna industria haberei decet, ne incuria deformentur aut conruant infirmata.</seg>
               <seg n="4">(4) nemo enim alteri imperium volens concedit et, quamvis bonus atque clemens sit, qui plus potest tamen, quia malo esse licet, formidatur.</seg>
               <seg n="5">(5) id eo evenit, quia plerique rerum potentes pervorse consulunt et eo se munitiores putant, quo illei quibus imperitant nequiores fuere.</seg>
@@ -93,7 +93,10 @@
               <seg n="7">(7) sed tibi hoc gravius est, quam ante te omnibus, armis parta componere, quod bellum aliorum pace mollius gessisti.</seg>
               <seg n="8">(8) ad hoc victores praedam petunt, victi cives sunt. inter has difficultates evadendum est tibi atque in posterum firmanda res publica non armis modo neque advorsum hostes, sed, quod multo multoque asperius est, pacis bonis artibus.</seg>
               <seg n="9">(9) ergo omnes magna 
-                <app><lem wit="#As.">mediocri</lem><rdg wit="V">mediocris</rdg></app>
+                <app><lem wit="#As.">mediocri</lem>
+                  <rdg wit="As.">mediocri</rdg>
+                  <rdg wit="V">mediocris</rdg>
+                  </app>
                 sapientia res huc vocat, quae quisque optima potest, utei dicant.</seg>
               <seg n="10">(10) ac mihi sic videtur: qualeicumque modo tu victoriam composueris, ita alia omnia futura.</seg>
               <seg n="1">2 (1) ac mihi sic videtur: qualeicumque modo tu victoriam composueris, ita alia omnia futura.</seg>
@@ -107,7 +110,13 @@
               <seg n="7">(7) sed ob easdem causas immane dictust quanti et quam multi mortales postea ad Pompeium discesserint, eoque per omne tempus belli quasi sacro atque inspoliato fano debitores usi.</seg></p>
             <p n="3">3
               <seg n="1">(1) Igitur quoniam tibi victori de bello atque pace agitandum est, hoc uti civiliter deponas, 
-              <app><lem wit="Ald." type="emendation" xml:id="lem-3,1-illa-ut">illa <supplied>ut</supplied></lem> <note target="lem-3,1-illa-ut"></note></app>
+                <app>
+                  <lem wit="#Ald." type="emendation" xml:id="lem-3,1-illa-ut">illa 
+                  <supplied>ut</supplied></lem>
+                  <note target="#lem-3,1-illa-ut"></note>
+                  <rdg wit="Ald.">ut <em>ins.</em></rdg>
+                  <rdg wit="V"><em>om.</em></rdg>
+                </app>
               quam iustissuma et diuturna sit, de te ipso primum, qui ea compositurus es, quid optimum factu sit existima.</seg>
               <seg n="2">bla bla</seg>
               <seg n="3">bla bla</seg>
@@ -123,7 +132,7 @@
         
           <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         </div>
-        <div n="2" subtype="letter" type= "textpart">
+        <div n="2" subtype="letter" type="textpart">
           <head>Epistulae ad Caesarem senem de re publica 2</head>
           <!--Each new major section (e.g., book, volume) has a new <div>.-->
         </div>
