@@ -30,9 +30,6 @@
       </sourceDesc>
     </fileDesc>
   </teiHeader>
-  <head>
-    <link href="./style.css" type="text/css" rel="stylesheet"></link>
-  </head>
   <text>
     <front xml:id="front">
       <div type="section" xml:id="preface">
