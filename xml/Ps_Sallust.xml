@@ -63,8 +63,16 @@
             <witness xml:id="Ciacc."><abbr type="siglum">Ciacc.</abbr> = <bibl> Ciacconius</bibl></witness>
             <witness xml:id="Cort."><abbr type="siglum">Cort.</abbr> = <bibl> Cortius (1724)</bibl></witness>
             <witness xml:id="Gerl."><abbr type="siglum">Gerl.</abbr> = <bibl> Gerlach</bibl></witness>
-            <witness xml:id="Jo."><abbr type="siglum">Jo.</abbr> = <bibl> H. Jordan (1 = 1867, 2 = 1876, 3 = 1887)</bibl></witness>
-            <witness xml:id="Kurf."><abbr type="siglum">Kurf.</abbr> = <bibl> Kurfeß (1 = 1920, 2 = 1930, 3 = 1950, 4 = 1955, 5 = 1959)</bibl></witness>
+            <witness xml:id="Jo.1"><abbr type="siglum">Jo.1</abbr> = <bibl> H. Jordan 1867</bibl></witness>
+            <witness xml:id="Jo.2"><abbr type="siglum">Jo.2</abbr> = <bibl> H. Jordan 1876</bibl></witness>
+            <witness xml:id="Jo.3"><abbr type="siglum">Jo.3</abbr> = <bibl> H. Jordan 1887</bibl></witness>
+            <witness xml:id="Kurf.1"><abbr type="siglum">Kurf.1</abbr> = <bibl> Kurfeß 1920</bibl></witness>
+            <witness xml:id="Kurf.2"><abbr type="siglum">Kurf.2</abbr> = <bibl> Kurfeß 1930</bibl></witness>
+            <witness xml:id="Kurf.3"><abbr type="siglum">Kurf.3</abbr> = <bibl> Kurfeß 1950</bibl></witness>
+            <witness xml:id="Kurf.4"><abbr type="siglum">Kurf.4</abbr> = <bibl> Kurfeß 1955</bibl></witness>
+            <witness xml:id="Kurf.5"><abbr type="siglum">Kurf.5</abbr> = <bibl> Kurfeß 1959</bibl></witness>
+            <!--Darstellung der Auflagen hochgestellt!-->
+            
             <witness xml:id="Or."><abbr type="siglum">Or.</abbr> = <bibl> Orelli</bibl></witness>
             <witness xml:id="Pal."><abbr type="siglum">Pal.</abbr> = <bibl> Paladini</bibl></witness>
             <witness xml:id="Wass."><abbr type="siglum">Wass.</abbr> = <bibl> Wassius</bibl></witness>
