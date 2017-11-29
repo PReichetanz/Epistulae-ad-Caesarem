@@ -3,6 +3,7 @@
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
+    <link href="./style.css" type="text/css" rel="stylesheet">
     <fileDesc>
       <titleStmt>
         <title>Title of Work</title>
@@ -72,7 +73,7 @@
             <witness xml:id="Kurf.4"><abbr type="siglum">Kurf.4</abbr> = <bibl> Kurfeß 1955</bibl></witness>
             <witness xml:id="Kurf.5"><abbr type="siglum">Kurf.5</abbr> = <bibl> Kurfeß 1959</bibl></witness>
             <!--Darstellung der Auflagen hochgestellt!-->
-            
+
             <witness xml:id="Or."><abbr type="siglum">Or.</abbr> = <bibl> Orelli</bibl></witness>
             <witness xml:id="Pal."><abbr type="siglum">Pal.</abbr> = <bibl> Paladini</bibl></witness>
             <witness xml:id="Wass."><abbr type="siglum">Wass.</abbr> = <bibl> Wassius</bibl></witness>
@@ -88,10 +89,10 @@
         <div n="1" subtype="letter" type="textpart">
           <h1>Epistlae ad Caesarem senem de re publica 1</h1>
             <p n="1">1
-              <seg n="1">(1) Pro vero antea obtinebat regna atque imperia 
+              <seg n="1">(1) Pro vero antea obtinebat regna atque imperia
                 <app><lem>fortunam</lem> <rdg wit="V">fortuna</rdg></app>
                 dono dare, item alia quae per mortaleis avide cupiuntur, quia et apud indignos saepe erant quasi per libidinem data neque cuiquam incorrupta permanserant. </seg>
-              <seg n="2">(2) sed res docuit id verum esse, quod in carminibus Appius ait, fabrum esse suae quemque fortunae, atque in te maxume, qui tantum alios praetergressus 
+              <seg n="2">(2) sed res docuit id verum esse, quod in carminibus Appius ait, fabrum esse suae quemque fortunae, atque in te maxume, qui tantum alios praetergressus
                 <app>
                   <lem>es</lem><note>in ras.</note><rdg wit="V" type="in ras.">es </rdg></app>, ut prius defessi sint homines laudando facta tua quam tu laude digna faciundo.</seg>
               <seg n="3">(3) ceterum ut fabricata sic virtute parta, quam magna industria haberei decet, ne incuria deformentur aut conruant infirmata.</seg>
@@ -100,7 +101,7 @@
               <seg n="6">(6) at contra id eniti decet, cum ipse bonus atque strenuus sis, uti quam optimis imperites. nam pessumus quisque asperrume rectorem patitur.</seg>
               <seg n="7">(7) sed tibi hoc gravius est, quam ante te omnibus, armis parta componere, quod bellum aliorum pace mollius gessisti.</seg>
               <seg n="8">(8) ad hoc victores praedam petunt, victi cives sunt. inter has difficultates evadendum est tibi atque in posterum firmanda res publica non armis modo neque advorsum hostes, sed, quod multo multoque asperius est, pacis bonis artibus.</seg>
-              <seg n="9">(9) ergo omnes magna 
+              <seg n="9">(9) ergo omnes magna
                 <app><lem wit="#As.">mediocri</lem>
                   <rdg wit="As.">mediocri</rdg>
                   <rdg wit="V">mediocris</rdg>
@@ -112,20 +113,20 @@
             <p n="2">
               <seg n="2">(2) Bellum tibi fuit, imperator, cum homine claro, magnis opibus, avido potentiae, maiore fortuna quam sapientia, quem secuti sunt pauci per suam iniuriam tibi inimici, item quos adfinitas aut alia necessitudo traxit. </seg>
               <seg n="3">(3) nam particeps dominationis neque fuit quisquam neque, si pati potuisset, orbis terrarum bello concussus foret.</seg>
-              <seg n="4">(4) cetera multitudo volgi more magis quam iudicio 
+              <seg n="4">(4) cetera multitudo volgi more magis quam iudicio
                 <app>
                   <lem>post</lem>
                   <rdg wit="">post <em>fort. corr.</em> ex usast (cf. comm.)</rdg></app>
               alius alium quasi prudentiorem secuti.</seg>
               <seg n="5">(5) per idem tempus maledictis ineiquorum occupandae rei publicae in spem adducti homines, quibus omnia probro ac luxuria polluta erant, concurrere in castra tua et aperte quieteis mortem rapinas, postremo omnia quae corrupto animo lubebat, minitari.</seg>
-              <seg n="6">(6) ex queis magna pars, ubi neque creditum 
+              <seg n="6">(6) ex queis magna pars, ubi neque creditum
                 <app>
                   <lem>condonare</lem>
                   <rdg wit="Jo.">condonarei</rdg>
                   <rdg wit="Cort.">condonari</rdg>
-                </app> 
+                </app>
               neque te civibus sicut hostibus uti vident, defluxere, pauci restitere, quibus maius otium in castris quam Romae futurum erat: tanta vis creditorum impendebat. </seg>
-              <seg n="7">(7) sed ob easdem causas immane 
+              <seg n="7">(7) sed ob easdem causas immane
                 <app>
                   <lem>dictust </lem>
                   <rdg wit="V1" type="in margine add.">sit</rdg></app>
@@ -133,7 +134,7 @@
             <p n="3">3
               <seg n="1">(1) Igitur quoniam tibi victori de bello atque pace agitandum est, hoc uti civiliter deponas, illa
                 <app>
-                  <lem wit="#Ald." type="emendation" xml:id="lem-3,1-ut"> 
+                  <lem wit="#Ald." type="emendation" xml:id="lem-3,1-ut">
                   &lt;ut&gt;</lem>
                   <note target="#lem-3,1-ut"></note>
                   <rdg wit="Ald." type="ins.">ut </rdg>
@@ -141,45 +142,45 @@
                   <rdg wit="V" type="om."></rdg>
                 </app>
               quam iustissuma et diuturna sit, de te ipso primum, qui ea compositurus es, quid optimum factu sit existima.</seg>
-              <seg n="2">(2) equidem ego cuncta imperia crudelia magis acerba quam 
+              <seg n="2">(2) equidem ego cuncta imperia crudelia magis acerba quam
                 <app>
                   <lem>diuturna</lem>
                   <rdg wit="V3" type="in marg. adnot.">Malus diuturnitatis custos est metus</rdg></app>
-                arbitror, neque quemquam multis metuendum esse, quin ad eum ex multis formido reccidat: eam vitam bellum aeternum atque anceps gerere, quoniam neque advorsus neque ab tergo aut lateribus tutus sis, semper in periculo aut metu agites. 
+                arbitror, neque quemquam multis metuendum esse, quin ad eum ex multis formido reccidat: eam vitam bellum aeternum atque anceps gerere, quoniam neque advorsus neque ab tergo aut lateribus tutus sis, semper in periculo aut metu agites.
               </seg>
-              <seg n="3">(3) contra qui benignitate et clementia imperium temperavere, iis laeta et candida omnia visa, etiam hostes 
+              <seg n="3">(3) contra qui benignitate et clementia imperium temperavere, iis laeta et candida omnia visa, etiam hostes
                 <app><lem>aequiores quam aliis</lem>
                 <rdg wit="#Car.">aequiores quam aliis</rdg>
                 <rdg wit="#V">nequiores quam alii</rdg></app>
               cives. </seg>
-              <seg n="4">(4) haud scio an qui me his dictis corruptorem victoriae tuae nimisque in victos bona voluntate praedicent. scilicet quod ea, quae 
+              <seg n="4">(4) haud scio an qui me his dictis corruptorem victoriae tuae nimisque in victos bona voluntate praedicent. scilicet quod ea, quae
                 <app>
                   <lem>externis</lem>
                   <rdg wit="#Jo.">exteris</rdg>
                   </app>
                 nationibus natura nobis hostibus nosque maioresque nostri saepe tribuere, ea civibus danda arbitror neque barbaro ritu caede caedem et sanguinem sanguine expianda.</seg>
             </p>
-            
+
             <p n="4">4
-              <seg n="1">(1) An illa, quae paulo ante hoc bellum in 
+              <seg n="1">(1) An illa, quae paulo ante hoc bellum in
                 <app>
                   <lem>Cn.</lem>
                   <rdg wit="#V1" type="in ras.">CN</rdg>
-                </app> 
-              Pompeium victoriamque Sullanam increpabantur, oblivio 
+                </app>
+              Pompeium victoriamque Sullanam increpabantur, oblivio
                 <app>
                 <lem>interfecit:</lem>
                 <rdg wit="Gronovius #Pal.">intercepit</rdg>
                 </app>
-              Domitium, Carbonem, Brutum, alios item non armatos neque in proelio belli iure sed postea supplices per summum scelus interfectos, 
+              Domitium, Carbonem, Brutum, alios item non armatos neque in proelio belli iure sed postea supplices per summum scelus interfectos,
                 <app>
                   <lem>plebem Romanam</lem>
                   <rdg wit="#V">plebēromanam</rdg>
                   <rdg wit="#V1">virg. sup. e2 add.</rdg>
-                </app> 
+                </app>
               in villa publica pecoris modo conscissam? </seg>
               <seg n="2">(2) eheu quam illa occulta civium funera et repentinae caedes, in parentum aut liberorum sinum fuga mulierum et puerorum, vastatio domuum ante partam a te victoriam saeva atque crudelia erant! </seg>
-              <seg n="3">(3) ad quae te illi idem hortantur: 
+              <seg n="3">(3) ad quae te illi idem hortantur:
                 <app>
                   <lem>et</lem>
                   <rdg wit="#V">et</rdg>
@@ -187,36 +188,36 @@
                   <rdg wit="Eisenhut." type="def. (cl. Terent. Heaut. 705)"></rdg>
                   <rdg wit="#Kurf.3 #Pal.">at</rdg>
                 </app>
-              scilicet id certatum esse, utrius vestrum arbitrio iniuria fierent, neque receptam sed captam a te rem publicam et ea causa exercitus stipendiis confectis optimos et veterrimos omnium advorsum fratres parentisque 
+              scilicet id certatum esse, utrius vestrum arbitrio iniuria fierent, neque receptam sed captam a te rem publicam et ea causa exercitus stipendiis confectis optimos et veterrimos omnium advorsum fratres parentisque
                 <app>
                   <lem>[alii liberos]</lem>
                   <rdg wit="#Jo." type="del.">alii liberos</rdg>
-                </app> 
+                </app>
               armis contendere, ut ex alienis malis deterrumi mortales ventri atque profundae lubidini sumptus quaererent atque essent obprobria victoriae, quorum flagitiis commacularetur bonorum laus. </seg>
-              <seg n="4">(4) neque enim 
+              <seg n="4">(4) neque enim
                 <app>
                   <lem>te</lem>
                   <rdg wit="#V1" type="in ras.">te</rdg>
                   <rdg wit="#V">tu</rdg>
                 </app>
-                praeterire puto, 
+                praeterire puto,
                   <app>
                     <lem>quali</lem>
                     <rdg wit="#V">qualis</rdg>
                     <rdg wit="#V1" type="s puncto delevit"></rdg>
-                  </app> 
+                  </app>
                 quisque eorum more aut modestia etiam tum dubia victoria sese gesserit quoque modo in belli administratione scorta aut convivia exercuerint nonnulli, quorum aetas ne per otium quidem talis voluptatis sine dedecore attingerit.</seg>
             </p>
-            
+
             <p n="5">5
               <seg n="1">(1) De bello satis dictum. de pace firmanda quoniam tuque et omnes tui agitatis, primum id, quaeso, considera, quale sit, de quo consultas: ita bonis malisque dimotis patenti via ad verum perges. </seg>
-              <seg n="2">(2) ego sic existimo: quoniam orta omnia intereunt, qua tempestate urbi Romanae fatum excidii adventarit, 
+              <seg n="2">(2) ego sic existimo: quoniam orta omnia intereunt, qua tempestate urbi Romanae fatum excidii adventarit,
                 <app>
                   <lem>civis</lem>
                   <rdg wit="#V">ciuis (ui <em>in ras.</em>)</rdg>
                 </app>
               cum civibus manus conserturos, ita defessos et exsanguis regi aut nationi praedae futuros. aliter non orbis terrarum neque cunctae gentes conglobatae movere aut contundere queunt hoc imperium. </seg>
-              <seg n="3">(3) firmanda igitur sunt 
+              <seg n="3">(3) firmanda igitur sunt
                 <app>
                   <lem>vel</lem>
                   <rdg wit="#Kroll" type="del."></rdg>
@@ -227,13 +228,13 @@
               concordiae bona et discordiae mala expellenda.</seg>
               <seg n="4">(4) id ita eveniet, si sumptuum et rapinarum licentiam dempseris, non ad vetera instituta revocans, quae iam pridem corruptis moribus ludibrio sunt, sed si suam quoique rem familiarem finem sumptuum statueris: </seg>
               <seg n="5">(5) quoniam is incessit mos, ut homines adulescentuli sua atque aliena consumere, nihil libidinei atque aliis rogantibus denegare pulcherrimum putent, eam virtutem et magnitudinem animi, pudorem atque modestiam pro socordia aestiment.</seg>
-              <seg n="6">(6) ergo animus ferox prava via ingressus, ubi 
+              <seg n="6">(6) ergo animus ferox prava via ingressus, ubi
                 <app>
                   <lem>consueta</lem>
                   <rdg wit="#V">consuexata (-xa <note>induxit lineola supposita eadem manus</note>)</rdg>
                   <!--Kursiv- und Normalschrift noch zu überarbeiten -->
                 </app>
-              non suppetunt, fertur accensus in socios modo modo in civis, movet composita et res novas veteribus 
+              non suppetunt, fertur accensus in socios modo modo in civis, movet composita et res novas veteribus
                 <app>
                   <lem>laceratis</lem>
                   <rdg wit="" type="conieci (v. comm.)">laceratis</rdg>
@@ -247,46 +248,46 @@
               <seg n="7">(7) quare tollendus est fenerator in posterum, uti suas quisque res curemus.</seg>
               <seg n="8">(8) ea vera atque simplex via est, magistratum populo, non creditori gerere et magnitudinem animi in addendo, non demendo rei publicae ostendere.</seg>
             </p>
-            
+
             <p n="6">6
               <seg n="1">(1) Atque ego scio quam aspera haec res in principio futura sit, praesertim is qui se in victoria licentius liberiusque quam artius futuros credebant. quorum si saluti potius quam lubidini consules, illosque nosque et socios in pace firma constitues: sin eadem studia artesque iuventuti erunt, ne ista egregia tua fama simul cum urbe Roma brevi concidet.</seg>
               <seg n="2">(2) postremo sapientes pacis causa bellum gerunt, laborem spe otii sustentant. nisi illam firmam efficis, vinci an vicisse quid retulit?</seg>
               <seg n="3">(3) quare capesse per deos, rem publicam et omnia aspera, uti soles, pervade. </seg>
               <seg n="4">(4) namque aut tu mederi potes aut omittenda est cura omnibus. neque quisquam te ad crudelis poenas aut acerba iudicia invocat, quibus civitas vastatur magis quam corrigitur, sed ut pravas artis malasque libidines ab iuventute prohibeas.</seg>
-              <seg n="5">(5) ea vera clementia erit consuluisse, ne merito 
+              <seg n="5">(5) ea vera clementia erit consuluisse, ne merito
                 <app>
                   <lem>cives</lem>
                   <rdg wit="#V">ciuis</rdg>
                 </app>
-              patria expellerentur, retinuisse ab stultitia et falsis voluptatibus, pacem et concordiam stabilivisse, non si 
+              patria expellerentur, retinuisse ab stultitia et falsis voluptatibus, pacem et concordiam stabilivisse, non si
                 <app>
                   <lem>flagitiis</lem>
                   <rdg wit="#V">flagitis</rdg>
                 </app>
               opsecutus, delicta perpessus praesens gaudium quom mox futuro malo concesseris.</seg>
             </p>
-            
+
             <p n="7">7
-              <seg n="1">(1) Ac mihi animus, quibus rebus alii timent, maxume fretus est negotii magnitudine et quia tibi terrae et maria simul omnia componenda sunt. quippe res 
+              <seg n="1">(1) Ac mihi animus, quibus rebus alii timent, maxume fretus est negotii magnitudine et quia tibi terrae et maria simul omnia componenda sunt. quippe res
                 <app>
                   <lem>parvas</lem>
                   <rdg wit="#Rom.">paruas</rdg>
                   <rdg wit="#V">pravas</rdg>
                 </app>
-              tantum ingenium attingere 
+              tantum ingenium attingere
                 <app>
                   <lem>nequeiret,</lem>
                   <rdg wit="#V">neq./iret</rdg>
                 </app> magnae curae magna merces est. </seg>
               <seg n="2">(2) igitur provideas oportet, uti pleps largitionibus et publico frumento corrupta habeat negotia sua, quibus ab malo publico detineatur: iuventus probitati et industriae, non sumptibus neque divitiis studeat.</seg>
-              <seg n="3">(3) id ita eveniet, si pecuniae, quae maxuma omnium pernicies est, usum atque 
+              <seg n="3">(3) id ita eveniet, si pecuniae, quae maxuma omnium pernicies est, usum atque
                 <app>
                   <lem>decus</lem>
                   <rdg wit="#As.">decus</rdg>
                   <rdg wit="#V">dedecus</rdg>
                 </app>
               dempseris. </seg>
-              <seg n="4">(4) nam saepe ego quom animo meo reputans, quibus quisque rebus clari viri magnitudinem invenissent quaeque res populos nationesve magnis 
+              <seg n="4">(4) nam saepe ego quom animo meo reputans, quibus quisque rebus clari viri magnitudinem invenissent quaeque res populos nationesve magnis
                 <app>
                   <lem>auctibus</lem>
                   <rdg wit="#Ciacc.">auctibus</rdg>
@@ -295,17 +296,17 @@
               auxissent ac deinde quibus causis amplissima regna et imperia conruissent, eadem semper bona atque mala reperiebam, omnesque victores divitias contempsisse et victos cupivisse.</seg>
               <seg n="5">(5) neque aliter quisquam extollere sese et divina mortalis attingere potest, nisi omissis pecuniae et corporis gaudiis animo indulgens, non adsentando neque concupita praebendo, pervorsam gratiam gratificans, sed in labore patientia bonisque praeceptis et factis fortibus exercitando.</seg>
             </p>
-            
+
             <p n="8">8
               <seg n="1">(1) Nam domum aut villam exstruere, eam signis aulaeis alieisque operibus exornare et omnia potius quam semet visendum efficere, id est non divitias decori habere, sed ipsum illis flagitio esse. </seg>
-              <seg n="2">(2) porro 
+              <seg n="2">(2) porro
                 <app>
                   <lem>ei,</lem>
                   <rdg wit="#V">eis</rdg>
                 </app>
                 quibus bis die ventrem onerare, nullam noctem sine scorto quiescere mos est, ubi animum, quem dominari decebat, servitio oppressere, nequeiquam eo postea hebeti atque claudo pro exercito uti volunt</seg>
               <seg n="3">(3) nam inprudentia pleraque et se praecipitat. verum haec et omnia mala pariter cum honore pecuniae desinent, si neque magistratus neque alia volgo cupiunda venalia erunt.</seg>
-              <seg n="4">(4) ad hoc providendum est, quonam modo Italia atque provinciae tutiores sint: id quod factu haut 
+              <seg n="4">(4) ad hoc providendum est, quonam modo Italia atque provinciae tutiores sint: id quod factu haut
                 <app>
                   <lem>obscurum</lem>
                   <rdg wit="#V">obscurum</rdg>
@@ -314,7 +315,7 @@
                 </app>
               est. </seg>
               <seg n="5">(5) nam idem omnia vastant, suas deserendo domos et per iniuriam alienas occupando.</seg>
-              <seg n="6">(6) item ne, uti adhuc, militia iniusta aut inaequalis sit, cum alii triginta, pars nullum stipendium 
+              <seg n="6">(6) item ne, uti adhuc, militia iniusta aut inaequalis sit, cum alii triginta, pars nullum stipendium
                 <app>
                   <lem>facient.</lem>
                   <rdg wit="Jo.2">faciunt</rdg>
@@ -323,14 +324,14 @@
               et frumentum id, quod antea praemium ignaviae fuit, per municipia et colonias illis dare conveniet, qui stipendiis emeritis domos reverterint.</seg>
               <seg n="7">(7) Quae rei publicae necessaria tibique gloriosa ratus sum, quam paucissimis apsolvi.</seg>
               <seg n="8">(8) non peius videtur pauca nunc de facto meo disserere.</seg>
-              <seg n="9">(9) plerique mortales ad iudicandum satis ingenii habent aut simulant: verum enim ad reprehendenda aliena facta aut dicta ardet omnibus animus, vix satis apertum os aut lingua prompta videtur, quae 
+              <seg n="9">(9) plerique mortales ad iudicandum satis ingenii habent aut simulant: verum enim ad reprehendenda aliena facta aut dicta ardet omnibus animus, vix satis apertum os aut lingua prompta videtur, quae
                 <app>
                   <lem>meditata</lem>
                   <rdg wit="#Car." type="'fuisse qui legendum conicerent' dicit"> quae meditata pectore euoluat</rdg>
                   <rdg wit="#v">quae medita pectore euolat</rdg>
                 </app>
               pectore evolvat. quibus me subiectum haud paenitet, magis reticuisse pigeret.</seg>
-              <seg n="10">(10) nam sive hac seu meliore alia via perges, a me quidem pro virili parte dictum et adiutum fuerit. relicuum est optare, uti quae tibi placuerint ea di immortales adprobent beneque evenire 
+              <seg n="10">(10) nam sive hac seu meliore alia via perges, a me quidem pro virili parte dictum et adiutum fuerit. relicuum est optare, uti quae tibi placuerint ea di immortales adprobent beneque evenire
                 <app>
                   <lem>sinant.</lem>
                   <rdg wit="">post <em>sinant</em> duorum versiculorum spatium non conscriptum in <wit>V</wit></rdg>
@@ -338,7 +339,7 @@
                 </app>
               </seg>
             </p>
-        
+
           <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         </div>
         <div n="2" subtype="letter" type="textpart">
