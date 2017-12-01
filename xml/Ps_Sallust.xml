@@ -6,7 +6,7 @@
     <link href="build/CETEIcean.css" type="text/css" rel="stylesheet"></link>
     <fileDesc>
       <titleStmt>
-        <title>Title of Work</title>
+        <title class="tei-title">Title of Work</title>
         <author>Name of Author: Ps.Sallust</author>
         <editor>Name of Editor: Karl Vretska (digitalized by Paul Reichetanz)</editor>
       </titleStmt>
