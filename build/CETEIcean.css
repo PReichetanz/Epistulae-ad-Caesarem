@@ -652,6 +652,7 @@ tei-hi[rend="italic"] {
 tei-hi[rend="superscript"] {
   vertical-align: super;
   font-size: 8pt;
+}
 tei-hi {
   /* GLS: do we want to bold this or change the background color? */
 }
