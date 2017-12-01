@@ -3,6 +3,7 @@
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
+    <link href="build/CETEIcean.css" type="text/css" rel="stylesheet"></link>
     <fileDesc>
       <titleStmt>
         <title>Title of Work</title>
@@ -120,7 +121,8 @@
               <seg n="4">(4) cetera multitudo volgi more magis quam iudicio
                 <app>
                   <lem>post</lem>
-                  <rdg wit="">post <em>fort. corr.</em> ex usast (cf. comm.)</rdg></app>
+                  <rdg wit="">post <hi rend="italic">fort. corr.</hi> ex usast (cf. comm.)</rdg>
+                </app>
               alius alium quasi prudentiorem secuti.</seg>
               <seg n="5">(5) per idem tempus maledictis ineiquorum occupandae rei publicae in spem adducti homines, quibus omnia probro ac luxuria polluta erant, concurrere in castra tua et aperte quieteis mortem rapinas, postremo omnia quae corrupto animo lubebat, minitari.</seg>
               <seg n="6">(6) ex queis magna pars, ubi neque creditum
