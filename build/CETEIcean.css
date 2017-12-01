@@ -1702,6 +1702,7 @@ tei-TEI tei-title[level=a][prev]:before {
 }
 tei-title[level=m] {
   font-style: italic;
+  color: blue;
 }
 tei-titleStmt > tei-title {
   display: block;
