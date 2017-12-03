@@ -388,7 +388,7 @@
               <seg n="4">(4) cetera multitudo volgi more magis quam iudicio
                 <app>
                   <lem>post</lem>
-                  <rdg wit="">post <hi rend="italic">fort. corr.</hi> ex usast (cf. comm.)</rdg>
+                  <rdg wit="">post <hi rend="italic">fort. corr.</hi> ex usast <hi rend="italic">(cf. comm.)</hi></rdg>
                 </app>
               alius alium quasi prudentiorem secuti.</seg>
               <seg n="5">(5) per idem tempus maledictis ineiquorum occupandae rei publicae in spem adducti homines, quibus omnia probro ac luxuria polluta erant, concurrere in castra tua et aperte quieteis mortem rapinas, postremo omnia quae corrupto animo lubebat, minitari.</seg>
@@ -407,9 +407,9 @@
             <p n="3">3
               <seg n="1">(1) Igitur quoniam tibi victori de bello atque pace agitandum est, hoc uti civiliter deponas, illa
                 <app>
-                  <lem wit="#Ald." type="emendation" xml:id="lem-3,1-ut">
+                  <lem wit="#Ald." type="emendation" xml:id="lem-3-1-ut">
                   &lt;ut&gt;</lem>
-                  <note target="#lem-3,1-ut"></note>
+                  <note target="#lem-3-1-ut"></note>
                   <rdg wit="#Ald." type="ins.">ut </rdg>
                   <!--<rdg wit="#V" ana="substractive"/> Versuch, das "om." darzustellen-->
                   <rdg wit="#V" type="om."></rdg>
@@ -450,7 +450,7 @@
                 <app>
                   <lem>plebem Romanam</lem>
                   <rdg wit="#V">plebēromanam</rdg>
-                  <rdg wit="#V1">virg. sup. e2 add.</rdg>
+                  <rdg wit="#V1">virg. sup. e<hi rend="superscript">2</hi> add.</rdg>
                 </app>
               in villa publica pecoris modo conscissam? </seg>
               <seg n="2">(2) eheu quam illa occulta civium funera et repentinae caedes, in parentum aut liberorum sinum fuga mulierum et puerorum, vastatio domuum ante partam a te victoriam saeva atque crudelia erant! </seg>
@@ -458,8 +458,12 @@
                 <app>
                   <lem>et</lem>
                   <rdg wit="#V">et</rdg>
-                  <rdg wit="#Jo." type="del."></rdg>
-                  <rdg wit="Eisenhut." type="def. (cl. Terent. Heaut. 705)"></rdg>
+                  <rdg wit="#Jo.">
+                    <hi rend="italic">del.</hi>
+                  </rdg>
+                  <rdg wit="#Eisenhut">
+                    <hi rend="italic">def. (cl. Terent. Heaut. 705)</hi>
+                  </rdg>
                   <rdg wit="#Kurf.3 #Pal.">at</rdg>
                 </app>
               scilicet id certatum esse, utrius vestrum arbitrio iniuria fierent, neque receptam sed captam a te rem publicam et ea causa exercitus stipendiis confectis optimos et veterrimos omnium advorsum fratres parentisque
@@ -608,13 +612,12 @@
               <seg n="10">(10) nam sive hac seu meliore alia via perges, a me quidem pro virili parte dictum et adiutum fuerit. relicuum est optare, uti quae tibi placuerint ea di immortales adprobent beneque evenire
                 <app>
                   <lem>sinant.</lem>
-                  <rdg wit="">post <em>sinant</em> duorum versiculorum spatium non conscriptum in <wit>V</wit></rdg>
+                  <rdg wit="#V">
+                    <hi rend="italic">post </hi>sinant <hi rend="italic">duorum versiculorum spatium non conscriptum</hi></rdg>
                   <!--Kursiv- und Normalschrift noch zu überarbeiten -->
                 </app>
               </seg>
             </p>
-
-          <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         </div>
         <div type="textpart" subtype="letter" n="2" xml:id="letter2">
           <head>Epistulae ad Caesarem senem de re publica 2</head>
