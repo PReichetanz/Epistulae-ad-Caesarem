@@ -53,7 +53,7 @@
                     <!--Descriptions of manuscripts, using <gi>listWit</gi>.-->
                 <listWit>
                   <witness xml:id="V">
-                    <abbr type="siglum">V</abbr> 
+                    <abbr type="siglum">V</abbr>
                     = cod. Vaticanus lat. 3864 s. IX/X; <hi rend="italic">eadem manus nonnulla correxit</hi>
                     </witness>
                   <witness xml:id="V1">
@@ -61,11 +61,11 @@
                     = <bibl> IX saec.</bibl>
                   </witness>
                   <witness xml:id="V2">
-                    <abbr type="siglum">V<hi rend="superscript">2</hi></abbr> = 
+                    <abbr type="siglum">V<hi rend="superscript">2</hi></abbr> =
                     <bibl> XV saec.</bibl>
                   </witness>
                   <witness xml:id="V3">
-                    <abbr type="siglum">V<hi rend="superscript">3</hi></abbr> = 
+                    <abbr type="siglum">V<hi rend="superscript">3</hi></abbr> =
                     <bibl> XV saec.</bibl>
                   </witness>
               </listWit>
@@ -107,11 +107,11 @@
                     <abbr type="siglum">Ciacc.</abbr> =
                     <bibl> Ciacconius</bibl></witness>
                   <witness xml:id="Cort.">
-                    <abbr type="siglum">Cort.</abbr> = 
+                    <abbr type="siglum">Cort.</abbr> =
                     <bibl> Cortius (1724)</bibl>
                   </witness>
                   <witness xml:id="Gerl.">
-                    <abbr type="siglum">Gerl.</abbr> = 
+                    <abbr type="siglum">Gerl.</abbr> =
                     <bibl> Gerlach</bibl>
                   </witness>
                 </listWit>
@@ -124,18 +124,18 @@
                     <abbr type="siglum">Jo.</abbr> = Editiones H. Jordan
                   </h1>
                   <bibl xml:id="Jo.1">
-                    <abbr type="siglum">Jo.<hi rend="superscript">1</hi></abbr> = 
-                      <editor>H. Jordan</editor> 
+                    <abbr type="siglum">Jo.<hi rend="superscript">1</hi></abbr> =
+                      <editor>H. Jordan</editor>
                       <date>1867</date>
                   </bibl>
                   <bibl xml:id="Jo.2">
-                    <abbr type="siglum">Jo.<hi rend="superscript">2</hi></abbr> = 
-                      <editor>H. Jordan</editor> 
+                    <abbr type="siglum">Jo.<hi rend="superscript">2</hi></abbr> =
+                      <editor>H. Jordan</editor>
                       <date>1876</date>
                   </bibl>
                   <bibl xml:id="Jo.3">
-                    <abbr type="siglum">Jo.<hi rend="superscript">3</hi></abbr> = 
-                      <editor>H. Jordan</editor> 
+                    <abbr type="siglum">Jo.<hi rend="superscript">3</hi></abbr> =
+                      <editor>H. Jordan</editor>
                       <date>1887</date>
                   </bibl>
                 </listBibl>
@@ -144,49 +144,49 @@
                     <abbr type="siglum">Kur.</abbr> = Editiones A. Kurfeß
                   </h1>
                     <bibl xml:id="Kurf.1">
-                      <abbr type="siglum">Kurf.<hi rend="superscript">1</hi></abbr> = 
+                      <abbr type="siglum">Kurf.<hi rend="superscript">1</hi></abbr> =
                         <title>Appendix Sallustiana, Fasc. I Epistulae ad Caesarem</title>, ed.
-                        <editor>A. Kurfeß</editor> 
+                        <editor>A. Kurfeß</editor>
                         <date>1920</date>.
                     </bibl>
                     <bibl xml:id="Kurf.2">
-                      <abbr type="siglum">Kurf.<hi rend="superscript">2</hi></abbr> = 
+                      <abbr type="siglum">Kurf.<hi rend="superscript">2</hi></abbr> =
                         <title>Appendix Sallustiana, Fasc. I Epistulae ad Caesarem</title>, ed.
-                        <editor>A. Kurfeß</editor> 
+                        <editor>A. Kurfeß</editor>
                         <date>1930</date>.
                     </bibl>
                     <bibl xml:id="Kurf.3">
-                      <abbr type="siglum">Kurf.<hi rend="superscript">3</hi></abbr> = 
+                      <abbr type="siglum">Kurf.<hi rend="superscript">3</hi></abbr> =
                         <title>Appendix Sallustiana, Fasc. I Epistulae ad Caesarem</title>, ed.
-                        <editor>A. Kurfeß</editor> 
+                        <editor>A. Kurfeß</editor>
                         <date>1950</date>.
                     </bibl>
                     <bibl xml:id="Kurf.4">
-                      <abbr type="siglum">Kurf.<hi rend="superscript">4</hi></abbr> = 
+                      <abbr type="siglum">Kurf.<hi rend="superscript">4</hi></abbr> =
                         <title>Appendix Sallustiana, Fasc. I Epistulae ad Caesarem</title>, ed.
-                        <editor>A. Kurfeß</editor> 
+                        <editor>A. Kurfeß</editor>
                         <date>1955</date>.
                     </bibl>
                     <bibl xml:id="Kurf.5">
-                      <abbr type="siglum">Kurf.<hi rend="superscript">5</hi></abbr> = 
+                      <abbr type="siglum">Kurf.<hi rend="superscript">5</hi></abbr> =
                         <title>Appendix Sallustiana, Fasc. I Epistulae ad Caesarem</title>, ed.
-                        <editor>A. Kurfeß</editor> 
+                        <editor>A. Kurfeß</editor>
                         <date>1959</date>.
                     </bibl>
                 </listBibl>
                 <bibl xml:id="Or.">
-                  <abbr type="siglum">Or.</abbr> = 
+                  <abbr type="siglum">Or.</abbr> =
                   <editor> Orelli</editor>
                 </bibl>
                 <bibl xml:id="Pal.">
-                  <abbr type="siglum">Pal.</abbr> = 
-                  <title>C. Sallusti Crispi Epistulae ad Caesarem</title>, 
+                  <abbr type="siglum">Pal.</abbr> =
+                  <title>C. Sallusti Crispi Epistulae ad Caesarem</title>,
                   Testo crit., traduzione e commento filologico a cura di
                   <editor> V. Paladini</editor>,
                   <date>1952</date>.
                 </bibl>
                 <bibl xml:id="Wass.">
-                  <abbr type="siglum">Wass.</abbr> = 
+                  <abbr type="siglum">Wass.</abbr> =
                   <editor> Wassius</editor>
                 </bibl>
                 <bibl xml:id="Eisenhut">
@@ -204,7 +204,7 @@
           </div>
           <div type="section" xml:id="bibliography-scholars">
             <head>List of Scholars Referred to By Name</head>
-                       <!--A list of the names of individual scholars referred to by name in the 
+                       <!--A list of the names of individual scholars referred to by name in the
                       apparatus, if they are not listed elsewhere in the bibliography. -->
           </div>
         </div>
@@ -212,7 +212,7 @@
           <h2>Conspectus siglorum</h2>
           <listWit>
             <witness xml:id="V">
-              <abbr type="siglum">V</abbr> 
+              <abbr type="siglum">V</abbr>
               = cod. Vaticanus lat. 3864 s. IX/X; <hi rend="italic">eadem manus nonnulla correxit</hi>
               </witness>
             <witness xml:id="V1">
@@ -220,11 +220,11 @@
               = <bibl> IX saec.</bibl>
             </witness>
             <witness xml:id="V2">
-              <abbr type="siglum">V<hi rend="superscript">2</hi></abbr> = 
+              <abbr type="siglum">V<hi rend="superscript">2</hi></abbr> =
               <bibl> XV saec.</bibl>
             </witness>
             <witness xml:id="V3">
-              <abbr type="siglum">V<hi rend="superscript">3</hi></abbr> = 
+              <abbr type="siglum">V<hi rend="superscript">3</hi></abbr> =
               <bibl> XV saec.</bibl>
             </witness>
             <witness xml:id="Rom.">
@@ -259,79 +259,79 @@
               <abbr type="siglum">Ciacc.</abbr> =
               <bibl> Ciacconius</bibl></witness>
             <witness xml:id="Cort.">
-              <abbr type="siglum">Cort.</abbr> = 
+              <abbr type="siglum">Cort.</abbr> =
               <bibl> Cortius (1724)</bibl>
             </witness>
             <witness xml:id="Gerl.">
-              <abbr type="siglum">Gerl.</abbr> = 
+              <abbr type="siglum">Gerl.</abbr> =
               <bibl> Gerlach</bibl>
             </witness>
             <witness xml:id="Jo.1">
-              <abbr type="siglum">Jo.<hi rend="superscript">1</hi></abbr> = 
+              <abbr type="siglum">Jo.<hi rend="superscript">1</hi></abbr> =
               <bibl>
-                <editor>H. Jordan</editor> 
+                <editor>H. Jordan</editor>
                 <date>1867</date>
               </bibl>
             </witness>
             <witness xml:id="Jo.2">
-              <abbr type="siglum">Jo.<hi rend="superscript">2</hi></abbr> = 
+              <abbr type="siglum">Jo.<hi rend="superscript">2</hi></abbr> =
               <bibl>
-                <editor>H. Jordan</editor> 
+                <editor>H. Jordan</editor>
                 <date>1876</date>
               </bibl>
             </witness>
             <witness xml:id="Jo.3">
-              <abbr type="siglum">Jo.<hi rend="superscript">3</hi></abbr> = 
+              <abbr type="siglum">Jo.<hi rend="superscript">3</hi></abbr> =
               <bibl>
-                <editor>H. Jordan</editor> 
+                <editor>H. Jordan</editor>
                 <date>1887</date>
               </bibl>
             </witness>
             <witness xml:id="Kurf.1">
-              <abbr type="siglum">Kurf.<hi rend="superscript">1</hi></abbr> = 
+              <abbr type="siglum">Kurf.<hi rend="superscript">1</hi></abbr> =
               <bibl>
-                <editor>Kurfeß</editor> 
+                <editor>Kurfeß</editor>
                 <date>1920</date>
               </bibl>
             </witness>
             <witness xml:id="Kurf.2">
-              <abbr type="siglum">Kurf.<hi rend="superscript">2</hi></abbr> = 
+              <abbr type="siglum">Kurf.<hi rend="superscript">2</hi></abbr> =
               <bibl>
-                <editor>Kurfeß</editor> 
+                <editor>Kurfeß</editor>
                 <date>1930</date>
               </bibl>
             </witness>
             <witness xml:id="Kurf.3">
-              <abbr type="siglum">Kurf.<hi rend="superscript">3</hi></abbr> = 
+              <abbr type="siglum">Kurf.<hi rend="superscript">3</hi></abbr> =
               <bibl>
-                <editor>Kurfeß</editor> 
+                <editor>Kurfeß</editor>
                 <date>1950</date>
               </bibl>
             </witness>
             <witness xml:id="Kurf.4">
-              <abbr type="siglum">Kurf.<hi rend="superscript">4</hi></abbr> = 
+              <abbr type="siglum">Kurf.<hi rend="superscript">4</hi></abbr> =
               <bibl>
-                <editor>Kurfeß</editor> 
+                <editor>Kurfeß</editor>
                 <date>1955</date>
               </bibl>
             </witness>
             <witness xml:id="Kurf.5">
-              <abbr type="siglum">Kurf.<hi rend="superscript">5</hi></abbr> = 
+              <abbr type="siglum">Kurf.<hi rend="superscript">5</hi></abbr> =
               <bibl>
-                <editor>Kurfeß</editor> 
+                <editor>Kurfeß</editor>
                 <date>1959</date>
               </bibl>
             </witness>
             <witness xml:id="Or.">
-              <abbr type="siglum">Or.</abbr> = 
+              <abbr type="siglum">Or.</abbr> =
               <bibl> Orelli</bibl>
             </witness>
             <witness xml:id="Pal.">
-              <abbr type="siglum">Pal.</abbr> = 
+              <abbr type="siglum">Pal.</abbr> =
               <bibl> Paladini</bibl>
             </witness>
             <witness xml:id="Wass.">
-              <abbr type="siglum">Wass.</abbr> = 
+              <abbr type="siglum">Wass.</abbr> =
               <bibl> Wassius</bibl>
             </witness>
           </listWit>
@@ -343,7 +343,7 @@
     <body>
       <div type="edition">
         <div n="1" subtype="letter" type="textpart" xml:id="letter1">
-          <h1>Epistlae ad Caesarem senem de re publica 1</h1>
+          <head>Epistlae ad Caesarem senem de re publica 1</head>
             <p n="1">1
               <seg n="1">(1) Pro vero antea obtinebat regna atque imperia
                 <app><lem>fortunam</lem> <rdg wit="V">fortuna</rdg></app>
