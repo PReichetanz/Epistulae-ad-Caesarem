@@ -31,6 +31,7 @@
         <p>Born digital; no previus source exists.</p>
       </sourceDesc>
     </fileDesc>
+    <variantencoding method="parallel-segmentation" location="internal"></variantencoding>
   </teiHeader>
   <text>
     <front xml:id="front">
@@ -129,6 +130,7 @@
                       <date>1867</date>
                   </bibl>
                   <bibl xml:id="Jo.2">
+<<<<<<< HEAD
                     <abbr type="siglum">Jo.<hi rend="superscript">2</hi></abbr> =
                       <editor>H. Jordan</editor>
                       <date>1876</date>
@@ -137,11 +139,29 @@
                     <abbr type="siglum">Jo.<hi rend="superscript">3</hi></abbr> =
                       <editor>H. Jordan</editor>
                       <date>1887</date>
+=======
+                    <abbr type="siglum">Jo.<hi rend="superscript">2</hi></abbr> = 
+                      <title>C. Sallustii Crispi Catilina, Iughurta, historiarum reliquiae potiores. 
+                      incerti rhetoris suasoriae ad Caesarem senem de re publica. Acceduntincerti rhetoris invectivae Tulii et Sallustii personis tributae</title>.
+                      iterum recognovit
+                      <editor>H. Jordan</editor>.
+                      <publisher>Weidmann</publisher>: Berlin
+                      <date>1876</date>.
+                  </bibl>
+                  <bibl xml:id="Jo.3">
+                    <abbr type="siglum">Jo.<hi rend="superscript">3</hi></abbr> = 
+                      <title>C. Sallustii Crispi Catilina, Iughurta, historiarum reliquiae codicibus servatae 
+                      accedunt rhetorum opuscula Sallustiana</title>.
+                      tertium recognovit
+                      <editor>H. Jordan</editor>. 
+                      <publisher>Weidmann</publisher>: Berlin
+                      <date>1887</date>.
+>>>>>>> d52b6bdd5dac4a6393110ccb8227c14896437d0a
                   </bibl>
                 </listBibl>
                 <listBibl xml:id="Kur.">
                   <h1>
-                    <abbr type="siglum">Kur.</abbr> = Editiones A. Kurfeß
+                    <abbr type="siglum">Kurf.</abbr> = Editiones A. Kurfeß
                   </h1>
                     <bibl xml:id="Kurf.1">
                       <abbr type="siglum">Kurf.<hi rend="superscript">1</hi></abbr> =
@@ -342,11 +362,19 @@
     </front>
     <body>
       <div type="edition">
+<<<<<<< HEAD
         <div n="1" subtype="letter" type="textpart" xml:id="letter1">
           <head>Epistlae ad Caesarem senem de re publica 1</head>
+=======
+        <div type="textpart" subtype="letter" n="1" xml:id="letter1">
+          <h1>Epistlae ad Caesarem senem de re publica 1</h1>
+>>>>>>> d52b6bdd5dac4a6393110ccb8227c14896437d0a
             <p n="1">1
               <seg n="1">(1) Pro vero antea obtinebat regna atque imperia
-                <app><lem>fortunam</lem> <rdg wit="V">fortuna</rdg></app>
+                <app>
+                  <lem>fortunam</lem> 
+                  <rdg wit="#V">fortuna</rdg>
+                </app>
                 dono dare, item alia quae per mortaleis avide cupiuntur, quia et apud indignos saepe erant quasi per libidinem data neque cuiquam incorrupta permanserant. </seg>
               <seg n="2">(2) sed res docuit id verum esse, quod in carminibus Appius ait, fabrum esse suae quemque fortunae, atque in te maxume, qui tantum alios praetergressus
                 <app>
@@ -604,7 +632,7 @@
 
           <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
         </div>
-        <div n="2" subtype="letter" type="textpart" xml:id="letter2">
+        <div type="textpart" subtype="letter" n="2" xml:id="letter2">
           <head>Epistulae ad Caesarem senem de re publica 2</head>
           <!--Each new major section (e.g., book, volume) has a new <div>.-->
             <p n="1">1
