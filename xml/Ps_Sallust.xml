@@ -3,7 +3,7 @@
 <?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-    <link href="build/CETEIcean.css" type="text/css" rel="stylesheet"></link>
+    <link href="build/PS-Sallust-critical.css" type="text/css" rel="stylesheet"></link>
     <fileDesc>
       <titleStmt>
         <title class="tei-title">Title of Work</title>
@@ -362,9 +362,8 @@
                 dono dare, item alia quae per mortaleis avide cupiuntur, quia et apud indignos saepe erant quasi per libidinem data neque cuiquam incorrupta permanserant. </seg>
               <seg n="2">(2) sed res docuit id verum esse, quod in carminibus Appius ait, fabrum esse suae quemque fortunae, atque in te maxume, qui tantum alios praetergressus
                 <app>
-                  <lem>es,</lem>
-                  <note>in ras.</note>
-                  <rdg wit="#V" type="in ras.">es </rdg>
+                  <lem>es</lem>,
+                  <rdg wit="#V" type="in ras."></rdg>
                 </app>
                   ut prius defessi sint homines laudando facta tua quam tu laude digna faciundo.</seg>
               <seg n="3">(3) ceterum ut fabricata sic virtute parta, quam magna industria haberei decet, ne incuria deformentur aut conruant infirmata.</seg>
