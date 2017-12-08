@@ -117,7 +117,7 @@ tei-app {
   /* Empty Rule Set */
 }
 tei-app tei-note {
-  display: none;
+  font-style: italic;
 }
 tei-appInfo {
   display: block;
@@ -176,6 +176,7 @@ tei-publicationStmt > tei-availability[data-tei-status]:before {
 /* B */
 tei-back {
   display: block;
+  grid-area: 4 / 1 / 5 / 3;
 }
 tei-bibl {
 }
@@ -329,7 +330,7 @@ tei-cit {
 }
 
 tei-cit tei-note {
-  display: none;
+  font-style: italic;
 }
 tei-cl {
   /* Empty Rule Set */
@@ -501,6 +502,7 @@ tei-figure {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* g */
 tei-g {
   /* Empty Rule Set */
@@ -589,6 +591,7 @@ tei-TEI tei-head {
   font-family: Arvo, sans-serif;
   font-weight: normal;
 }
+
 tei-body > tei-head {
   font-size: 180%;
   text-indent: -0.5em;
@@ -1029,7 +1032,7 @@ tei-node {
 tei-normalization {
   /* Empty Rule Set */
 }
-tei-note {
+tei-note{
   /*
   display: block;
   margin: 1.5em auto 1.5em auto;
@@ -1650,6 +1653,8 @@ tei-symbol {
 /* t */
 tei-TEI {
   display: block;
+  background-color: lightgreen;
+  padding-left: 3em;
 }
 tei-table {
   border-collapse: separate;
@@ -1667,6 +1672,7 @@ tei-table > head {
 }
 tei-teiHeader {
   display: block;
+  grid-template: "header"
   /*
 tei-border-radius: 15px;
 tei-border: 1px solid black;
@@ -1677,6 +1683,7 @@ tei-*/
 }
 tei-TEI > tei-text {
   display: block;
+
   /*
 tei-border-radius: 15px;
 tei-border: 1px solid black;
@@ -1825,27 +1832,60 @@ html > body {
 html {
   margin: 0;
   padding: 0;
+//* Lässt Abstand zum Rand
   margin-left: 2em;
   margin-right: 4em;
-  padding: 2.5em;
+  padding: 2.5em;*//
   font-family: "Lucida Grande", "Cardo", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma";
   font-size: 12pt;
   background-color: white;
   color: #292929;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-container{
+  display: grid;
+  width: 65%;
+  grid-template-rows: 20px auto auto auto;
+
+}
+
 .info-wrapper {
   margin-left: -4.5em;
   position: fixed;
-  background-color: lightgray;
+  background-color: #ffa366;
   color: black;
-  top: 80%;
-  height: 20%;
-  width: 100%;
-
+  top: 25%;
+  left: 80%;
+  width: 20%;
 }
+
+.info-wrapper h3 {
+  text-align: center;
+}
+
 .info{
 
   width: 60%;
   margin: auto;
+}
+
+#front {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.grid-navbar {
+  grid-area: 1 / 1 / 2 / 3;
+  font-weight: bold;
+}
+
+.grid-text {
+  grid-area: 3 / 1 / 4 / 3;
+}
+
+.top-nav a {
+  border: 1px solid black;
 }

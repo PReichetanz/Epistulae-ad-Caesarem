@@ -6,8 +6,8 @@
     <link href="build/PS-Sallust-critical.css" type="text/css" rel="stylesheet"></link>
     <fileDesc>
       <titleStmt>
-        <title class="tei-title">Title of Work</title>
-        <author>Name of Author: Ps.Sallust</author>
+        <title>The <hi rend="italic">Epistulae ad Caesarem senem de re publica</hi> attributed to Sallust</title>
+        <author></author>
         <editor>Name of Editor: Karl Vretska (digitalized by Paul Reichetanz)</editor>
       </titleStmt>
       <editionStmt>
@@ -34,7 +34,16 @@
     <variantencoding method="parallel-segmentation" location="internal"/>
   </teiHeader>
   <text>
-    <front xml:id="front">
+    <div class="grid-container">
+      <div class="grid-navbar">
+        <nav class="topnav">
+          <a href="#Preface">Preface</a>
+          <a href="#Bibliography">Bibliography</a>
+          <a href="#edition">Epistulae</a>
+          <a href="#About">About</a>
+        </nav>
+      </div>
+    <front class="grid-front" xml:id="front">
       <div type="section" xml:id="preface">
         <head>Preface</head>
         <p>This is the critical text of the edition by Karl Vretska (1961). Sallust. Invektive und Episteln. Heidelberg: Winter.</p>
@@ -208,6 +217,16 @@
           </div>
           <div type="section" xml:id="bibliography-secondary-sources">
             <head>Secondary Sources</head>
+              <listBibl>
+                <bibl xml:id="Ernout">
+                  <abbr type="siglum">Ernout</abbr>
+                  = Review of <title level="a">Sallustio Minore, Invectiva in Ciceronem, Epistulae ad Caesarem. Studio introduttivo e Commento</title>
+                  di <author>Domenico Romano</author>. Palermo, 1948.
+                  In: <title level="j">Rev. Phil.</title>
+                  <date>1949</date>, p.
+                  <biblScope>183-184</biblScope>.
+                </bibl>
+              </listBibl>
                        <!--Bibliographical details for articles, notes, books, and other sources,
                       using <gi>listBibl</gi> with <att>type</att>="secondary-sources".-->
           </div>
@@ -349,10 +368,50 @@
           bibliography). The list of sigla may be generated automatically. -->
         </div>
     </front>
-    <body>
+    <body class="grid-text">
       <div type="edition">
+        <div type="textpart" subtype="letter" n="2" xml:id="letter2">
+          <head>Epistulae ad Caesarem senem de re publica 2</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+            <p n="1">1
+              <seg n="1">(1) Scio ego, quam difficile atque asperum factu sit consilium dare regi aut imperatori, postremo quoiquam mortali, quoius opes in excelso sunt, quippe cum et illis consultorum copiae adsint neque de futuro quisquam satis callidus satisque prudens sit.</seg>
+              <seg n="2">(2) quin etiam saepe prava magis quam bona consilia prospere eveniunt, quia plerasque res fortuna ex libidine sua agitat.</seg>
+              <seg n="3">(3) sed mihi studium fuit adulescentulo rem publicam capessere, atque in ea cognoscenda multam magnamque curam habui: non ita ut magistratum modo caperem, quem
+                <app>
+                  <lem>multi</lem>
+                </app>multi
+                 malis artibus adepti erant, sed etiam ut rem publicam domi militiaeque quantumque armis viris opulentia posset cognitam habuerim.</seg>
+              <seg n="4">(4) itaque mihi multa cum animo agitanti consilium fuit famam modestiamque meam post tuam dignitatem haberei et quoius rei lubet periculum facere, dum quid tibi ex eo gloriae acciderit.</seg>
+              <seg n="5">(5) idque non temere neque ex fortuna tua decrevi, sed quia in te praeter ceteras artem unam egregie mirabilem comperi, semper tibi maiorem in adversis quam in secundis rebus animum esse.</seg>
+              <seg n="6">(6) sed per ceteros mortalis illa res clarior est, quod prius defessi sunt homines laudando atque admirando munificentiam tuam, quam tu in faciundo quae gloria digna essent.</seg>
+            </p>
+            <p n="2">2
+              <seg n="1">(1) </seg>
+              <seg n="2">(2) </seg>
+              <seg n="3">(3)</seg>
+              <seg n="4">bla bla</seg>
+              <seg n="5">bla bla</seg>
+              <seg n="6">bla bla</seg>
+              <seg n="7">bla bla</seg>
+              <seg n="8">bla bla</seg>
+              <seg n="9">bla bla</seg>
+              <seg n="10">bla bla</seg>
+            </p>
+            <p n="3">3
+              <seg n="1">(1) </seg>
+              <seg n="2">(2) </seg>
+              <seg n="3">(3)</seg>
+              <seg n="4">bla bla</seg>
+              <seg n="5">bla bla</seg>
+              <seg n="6">bla bla</seg>
+              <seg n="7">bla bla</seg>
+              <seg n="8">bla bla</seg>
+              <seg n="9">bla bla</seg>
+              <seg n="10">bla bla</seg>
+            </p>
+        </div>
         <div type="textpart" subtype="letter" n="1" xml:id="letter1">
-          <h1>Epistlae ad Caesarem senem de re publica 1</h1>
+          <head>Epistlae ad Caesarem senem de re publica 1</head>
             <p n="1">1
               <seg n="1">(1) Pro vero antea obtinebat regna atque imperia
                 <app>
@@ -373,7 +432,7 @@
               <seg n="7">(7) sed tibi hoc gravius est, quam ante te omnibus, armis parta componere, quod bellum aliorum pace mollius gessisti.</seg>
               <seg n="8">(8) ad hoc victores praedam petunt, victi cives sunt. inter has difficultates evadendum est tibi atque in posterum firmanda res publica non armis modo neque advorsum hostes, sed, quod multo multoque asperius est, pacis bonis artibus.</seg>
               <seg n="9">(9) ergo omnes magna
-                <app><lem wit="#As.">mediocri</lem>
+                <app><lem wit="#As." type="emendation">mediocri</lem>
                   <rdg wit="#As.">mediocri</rdg>
                   <rdg wit="#V">mediocris</rdg>
                   </app>
@@ -394,8 +453,8 @@
               <seg n="6">(6) ex queis magna pars, ubi neque creditum
                 <app>
                   <lem>condonare</lem>
-                  <rdg wit="#Jo.">condonarei</rdg>
-                  <rdg wit="#Cort.">condonari</rdg>
+                  <rdg wit="#Jo." type="conjecture">condonarei</rdg>
+                  <rdg wit="#Cort." type="conjecture">condonari</rdg>
                 </app>
               neque te civibus sicut hostibus uti vident, defluxere, pauci restitere, quibus maius otium in castris quam Romae futurum erat: tanta vis creditorum impendebat. </seg>
               <seg n="7">(7) sed ob easdem causas immane
@@ -422,9 +481,11 @@
                 arbitror, neque quemquam multis metuendum esse, quin ad eum ex multis formido reccidat: eam vitam bellum aeternum atque anceps gerere, quoniam neque advorsus neque ab tergo aut lateribus tutus sis, semper in periculo aut metu agites.
               </seg>
               <seg n="3">(3) contra qui benignitate et clementia imperium temperavere, iis laeta et candida omnia visa, etiam hostes
-                <app><lem>aequiores quam aliis</lem>
-                <rdg wit="#Car.">aequiores quam aliis</rdg>
-                <rdg wit="#V">nequiores quam alii</rdg></app>
+                <app>
+                  <lem type="emendation">aequiores quam aliis</lem>
+                  <rdg wit="#Car."></rdg>
+                  <rdg wit="#V">nequiores quam alii</rdg>
+                </app>
               cives. </seg>
               <seg n="4">(4) haud scio an qui me his dictis corruptorem victoriae tuae nimisque in victos bona voluntate praedicent. scilicet quod ea, quae
                 <app>
@@ -447,7 +508,7 @@
                 </app>
               Domitium, Carbonem, Brutum, alios item non armatos neque in proelio belli iure sed postea supplices per summum scelus interfectos,
                 <app>
-                  <lem>plebem Romanam</lem>
+                  <lem type="conjecture">plebem Romanam</lem>
                   <rdg wit="#V">plebēromanam</rdg>
                   <rdg wit="#V1">virg. sup. e<hi rend="superscript">2</hi> add.</rdg>
                 </app>
@@ -455,20 +516,18 @@
               <seg n="2">(2) eheu quam illa occulta civium funera et repentinae caedes, in parentum aut liberorum sinum fuga mulierum et puerorum, vastatio domuum ante partam a te victoriam saeva atque crudelia erant! </seg>
               <seg n="3">(3) ad quae te illi idem hortantur:
                 <app>
-                  <lem>et</lem>
+                  <lem xml:id="lem-et">et</lem>
                   <rdg wit="#V">et</rdg>
-                  <rdg wit="#Jo.">
-                    <hi rend="italic">del.</hi>
+                  <rdg wit="#Jo." type="del."></rdg>
+                  <rdg type="def." wit="#Eisenhut">
+                    <note target="lem-et">(cl. Terent. Heaut. 705)</note>
                   </rdg>
-                  <rdg wit="#Eisenhut">
-                    <hi rend="italic">def. (cl. Terent. Heaut. 705)</hi>
-                  </rdg>
-                  <rdg wit="#Kurf.3 #Pal.">at</rdg>
+                  <rdg wit="#Kurf.3, #Pal.">at</rdg>
                 </app>
               scilicet id certatum esse, utrius vestrum arbitrio iniuria fierent, neque receptam sed captam a te rem publicam et ea causa exercitus stipendiis confectis optimos et veterrimos omnium advorsum fratres parentisque
                 <app>
                   <lem>[alii liberos]</lem>
-                  <rdg wit="#Jo." type="del.">alii liberos</rdg>
+                  <rdg wit="#Jo." type="del."></rdg>
                 </app>
               armis contendere, ut ex alienis malis deterrumi mortales ventri atque profundae lubidini sumptus quaererent atque essent obprobria victoriae, quorum flagitiis commacularetur bonorum laus. </seg>
               <seg n="4">(4) neque enim
@@ -490,8 +549,10 @@
               <seg n="1">(1) De bello satis dictum. de pace firmanda quoniam tuque et omnes tui agitatis, primum id, quaeso, considera, quale sit, de quo consultas: ita bonis malisque dimotis patenti via ad verum perges. </seg>
               <seg n="2">(2) ego sic existimo: quoniam orta omnia intereunt, qua tempestate urbi Romanae fatum excidii adventarit,
                 <app>
-                  <lem>civis</lem>
-                  <rdg wit="#V">ciuis (ui <em>in ras.</em>)</rdg>
+                  <lem xml:id="lem-civis">civis</lem>
+                  <rdg wit="#V">ciuis
+                    <note target="#lem-civis">(ui <hi rend="italic">in ras.</hi>)</note>
+                  </rdg>
                 </app>
               cum civibus manus conserturos, ita defessos et exsanguis regi aut nationi praedae futuros. aliter non orbis terrarum neque cunctae gentes conglobatae movere aut contundere queunt hoc imperium. </seg>
               <seg n="3">(3) firmanda igitur sunt
@@ -507,16 +568,18 @@
               <seg n="5">(5) quoniam is incessit mos, ut homines adulescentuli sua atque aliena consumere, nihil libidinei atque aliis rogantibus denegare pulcherrimum putent, eam virtutem et magnitudinem animi, pudorem atque modestiam pro socordia aestiment.</seg>
               <seg n="6">(6) ergo animus ferox prava via ingressus, ubi
                 <app>
-                  <lem>consueta</lem>
-                  <rdg wit="#V">consuexata (-xa <note>induxit lineola supposita eadem manus</note>)</rdg>
+                  <lem xml:id="lem-consueta">consueta</lem>
+                  <rdg wit="#V">consuexata (-xa <note target="#lem-consueta">induxit lineola supposita eadem manus</note>)</rdg>
                   <!--Kursiv- und Normalschrift noch zu überarbeiten -->
                 </app>
               non suppetunt, fertur accensus in socios modo modo in civis, movet composita et res novas veteribus
                 <app>
-                  <lem>laceratis</lem>
+                  <lem xml:id="lem-laceratis" type="emendation">laceratis</lem>
                   <rdg wit="" type="conieci (v. comm.)">laceratis</rdg>
                   <rdg wit="#V">aec</rdg>
-                  <rdg wit="Hauler" type="(cl. Plaut. Amph. 293, Curc. 141)">aeque</rdg>
+                  <rdg wit="Hauler">aeque
+                    <note target="#lem-laceratis">(cl. Plaut. Amph. 293, Curc. 141)</note>
+                  </rdg>
                   <rdg wit="#Pal.">nexis</rdg>
                   <rdg wit="Kurf." type="olim">nec(lectis) concupiscit</rdg>
                   <!--Kursiv- und Normalschrift noch zu überarbeiten -->
@@ -559,7 +622,7 @@
               <seg n="2">(2) igitur provideas oportet, uti pleps largitionibus et publico frumento corrupta habeat negotia sua, quibus ab malo publico detineatur: iuventus probitati et industriae, non sumptibus neque divitiis studeat.</seg>
               <seg n="3">(3) id ita eveniet, si pecuniae, quae maxuma omnium pernicies est, usum atque
                 <app>
-                  <lem>decus</lem>
+                  <lem type="emendation">decus</lem>
                   <rdg wit="#As.">decus</rdg>
                   <rdg wit="#V">dedecus</rdg>
                 </app>
@@ -596,7 +659,7 @@
                 <app>
                   <lem>facient.</lem>
                   <rdg wit="#Jo.2">faciunt</rdg>
-                  <rdg wit="Ernout, Rev. Phil. 1949, 183n.">faciant</rdg>
+                  <rdg wit="#Ernout" xml:id="rdg-faciant">faciant</rdg>
                 </app>
               et frumentum id, quod antea praemium ignaviae fuit, per municipia et colonias illis dare conveniet, qui stipendiis emeritis domos reverterint.</seg>
               <seg n="7">(7) Quae rei publicae necessaria tibique gloriosa ratus sum, quam paucissimis apsolvi.</seg>
@@ -605,7 +668,7 @@
                 <app>
                   <lem>meditata</lem>
                   <rdg wit="#Car." type="'fuisse qui legendum conicerent' dicit"> quae meditata pectore euoluat</rdg>
-                  <rdg wit="#v">quae medita pectore euolat</rdg>
+                  <rdg wit="#V">quae medita pectore euolat</rdg>
                 </app>
               pectore evolvat. quibus me subiectum haud paenitet, magis reticuisse pigeret.</seg>
               <seg n="10">(10) nam sive hac seu meliore alia via perges, a me quidem pro virili parte dictum et adiutum fuerit. relicuum est optare, uti quae tibi placuerint ea di immortales adprobent beneque evenire
@@ -618,26 +681,11 @@
               </seg>
             </p>
         </div>
-        <div type="textpart" subtype="letter" n="2" xml:id="letter2">
-          <head>Epistulae ad Caesarem senem de re publica 2</head>
-          <!--Each new major section (e.g., book, volume) has a new <div>.-->
-            <p n="1">1
-              <seg n="1">(1)</seg>
-              <seg n="2">(2) </seg>
-              <seg n="3">bla bla</seg>
-              <seg n="4">bla bla</seg>
-              <seg n="5">bla bla</seg>
-              <seg n="6">bla bla</seg>
-              <seg n="7">bla bla</seg>
-              <seg n="8">bla bla</seg>
-              <seg n="9">bla bla</seg>
-              <seg n="10">bla bla</seg>
-            </p>
-        </div>
         <div type="bibliography"/>
       </div>
     </body>
-    <back>
+    <back class="grid-back">
+      <p>back</p>
       <!--The content of the back matter will be determined in consultation between
       the editor and the staff of the DLL. Because LDLT editions are encoded, the
       matter traditionally found in the back of a printed critical edition may be
@@ -645,5 +693,6 @@
       Nevertheless, there is space here for notes, indices, and other kinds of
       information.-->
     </back>
+    </div>
   </text>
 </TEI>
