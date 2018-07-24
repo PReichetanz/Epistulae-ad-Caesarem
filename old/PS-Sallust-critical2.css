@@ -117,7 +117,7 @@ tei-app {
   /* Empty Rule Set */
 }
 tei-app tei-note {
-  display: none;
+  font-style: italic;
 }
 tei-appInfo {
   display: block;
@@ -159,6 +159,9 @@ tei-titleStmt > tei-author {
   display: block;
   margin-bottom: 1em;
 }
+tei-titleStmt > tei-p {
+  text-align: center;
+}
 tei-authority {
   /* Empty Rule Set */
 }
@@ -176,10 +179,11 @@ tei-publicationStmt > tei-availability[data-tei-status]:before {
 /* B */
 tei-back {
   display: block;
+  grid-area: 4 / 1 / 5 / 3;
 }
 tei-bibl {
-  /* Empty Rule Set */
 }
+
 tei-bibl[data-tei-rend~="block"], bibl[data-tei-rendition~="#block"] {
   display: block;
   padding-left: 2em;
@@ -327,6 +331,10 @@ tei-choice {
 tei-cit {
   /* Empty Rule Set */
 }
+
+tei-cit tei-note {
+  font-style: italic;
+}
 tei-cl {
   /* Empty Rule Set */
 }
@@ -453,9 +461,13 @@ tei-custodialHist {
 tei-date[data-tei-when]:empty:before {
   content: attr(when);
 }
+tei-desc {
+  font-style: italic;
+}
 /* e */
 tei-editionStmt {
   display:block;
+  text-align: center;
 }
 tei-egXML {
   display: block;
@@ -494,6 +506,7 @@ tei-figure {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* g */
 tei-g {
   /* Empty Rule Set */
@@ -582,6 +595,7 @@ tei-TEI tei-head {
   font-family: Arvo, sans-serif;
   font-weight: normal;
 }
+
 tei-body > tei-head {
   font-size: 180%;
   text-indent: -0.5em;
@@ -647,9 +661,9 @@ tei-hi[rend="caps"] {
 tei-hi[rend="italic"] {
   font-style: italic;
 }
-tei-hi[rend="superscript"] {
-  vertical-align: super;
-  font-size: 8pt;
+tei-hi[rend="superscript"]{
+vertical-align: super;
+font-size: 8pt;
 }
 tei-hi {
   /* GLS: do we want to bold this or change the background color? */
@@ -1022,7 +1036,7 @@ tei-node {
 tei-normalization {
   /* Empty Rule Set */
 }
-tei-note {
+tei-note{
   /*
   display: block;
   margin: 1.5em auto 1.5em auto;
@@ -1262,7 +1276,7 @@ tei-quotation {
 tei-quote {
 tei-font-style:italic;
 }
-/*
+
 tei-quote {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
 }
@@ -1278,6 +1292,7 @@ tei-quote[next]:after {
 tei-quote[prev]:before {
   content: "" !important;
 }
+/*
 tei-*/
 /* r */
 tei-app tei-rdg {
@@ -1304,9 +1319,9 @@ tei-recordingStmt {
   /* Empty Rule Set */
 }
 tei-ref {
-  color: #5f0000;
-  text-decoration: underline;
-  cursor: pointer;
+  color: black;
+  /*text-decoration: underline;
+  cursor: pointer;*/
 }
 tei-region {
   /* Empty Rule Set */
@@ -1642,6 +1657,8 @@ tei-symbol {
 /* t */
 tei-TEI {
   display: block;
+  background-color: #FFFFC8;
+  padding-left: 3em;
 }
 tei-table {
   border-collapse: separate;
@@ -1659,16 +1676,19 @@ tei-table > head {
 }
 tei-teiHeader {
   display: block;
+  grid-template: "header";
+  width: 70%;
   /*
 tei-border-radius: 15px;
 tei-border: 1px solid black;
 tei-background:white;
-tei-*/
+tei-
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 2em;*/
 }
 tei-TEI > tei-text {
   display: block;
+
   /*
 tei-border-radius: 15px;
 tei-border: 1px solid black;
@@ -1686,6 +1706,7 @@ tei-textDesc {
 /* Need TEI ancestor to distinguish TEI title from HTML title */
 tei-TEI tei-title {
   display: inline;
+  text-align: center;
 }
 tei-TEI tei-title[level=a] {
   quotes: "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d" "\2018" "\2019" "\201c" "\201d";
@@ -1711,7 +1732,7 @@ tei-titleStmt > tei-title {
   font-weight: normal;
   font-weight: bold !important;
   font-size: 150%;
-  color: red;
+  text-align: center;
 }
 tei-typeDesc {
   display: none;
@@ -1787,7 +1808,6 @@ tei-width {
 }
 tei-wit {
   /* Empty Rule Set */
-  display: none;
 }
 tei-witDetail {
   display:none;
@@ -1815,15 +1835,139 @@ tei-zone {
 html > body {
   margin: 0;
   padding: 0;
+  width: 80%;
 }
 html {
   margin: 0;
-  padding: 0;
+  padding-left: 3em;
+//* Lässt Abstand zum Rand
   margin-left: 2em;
   margin-right: 4em;
-  padding: 2.5em;
+  padding: 2.5em;*//
   font-family: "Lucida Grande", "Cardo", "Arial Unicode MS","Galilee Unicode Gk", "New Athena Unicode", "Athena Unicode", "Palatino Linotype", "Titus Cyberbit Basic", "Vusillus Old Face", "Alphabetum", "Galatia SIL", "Code 2000", "GentiumAlt", "Gentium", "Minion Pro", "GeorgiaGreek", "Vusillus Old Face Italic", "Everson Mono", "Aristarcoj", "Porson", "Legendum", "Aisa Unicode", "Hindsight Unicode", "Caslon", "Verdana", "Tahoma";
   font-size: 12pt;
-  background-color: white;
+  background-color: #FFFFC8;
   color: #292929;
+}
+
+.info-wrapper {
+  margin-left: -2.0em;
+  margin-bottom: 10px;
+  position: fixed;
+  border: 1px solid black;
+  color: black;
+  /*top: 10%;
+  left: 80%;
+  width: 20%;
+  height: 300px;*/
+  overflow: scroll;
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.info-wrapper h3 {
+  text-align: center;
+}
+
+.info-wrapper2 {
+  margin-left: -2.0em;
+  position: fixed;
+  color: black;
+  /*width: 20%;
+  height: 300px;
+  left: 80%;
+  top: 50%;*/
+  border: 1px solid black;
+  overflow: scroll;
+  grid-area: 2 / 3 / 3 / 4;
+}
+.info-wrapper2 h3 {
+  text-align: center;
+}
+
+.info, .info2 {
+  margin: 10px;
+  overflow: scroll;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-container{
+  display: grid;
+  width: 90%;
+  grid-template-rows: 30px 200px auto auto;
+  grid-template-columns: 25% 75%;
+}
+#front {
+  grid-area: 2 / 2 / 3 / 3;
+  overflow: scroll;
+  padding-left: 20px;
+  border: thin solid black;
+  margin-bottom: 40px;
+}
+
+.grid-navbar {
+  grid-area: 3 / 1 / 4 / 2;
+  font-weight: bold;
+  text-align: center;
+  border: thin solid black;
+  margin-right: 30px;
+}
+
+.grid-text {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+/*doesn't select tokens inside the navbar yet*/
+.grid-navbar > p{
+  text-align: : center;
+}
+
+/*grid for html-pages*/
+.containerHtml {
+  display: grid;
+  grid-template-rows: 100px auto 50px;
+  grid-template-columns: 1fr 3fr 2fr;
+  border: 1px solid black;
+  margin-top: 1em;
+  grid-gap: 10px;
+}
+
+.headHtml {
+  background-color: red;
+  grid-area: 1 / 1 / 2 / 4;
+  padding-left: 10px;
+}
+
+.navHtml {
+  grid-area: 2 / 1 / 3 / 2:
+  border: 1px solid black;
+  background-color: white;
+  align-content: space-around;
+  padding-left: 10px;
+}
+
+.textHtml {
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: yellow;
+  overflow: scroll;
+}
+
+.picHtml {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.footHtml {
+  grid-area: 3 / 1 / 4 / 4;
+  background-color: brown;
+  padding-left: 10px;
+}
+
+.argument {
+  display: none;
+}
+
+.bibl li {
+  list-style-type: none;
 }

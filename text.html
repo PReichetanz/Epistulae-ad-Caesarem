@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="build/PS-Sallust-critical.css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  </head>
+  <body>
+    <div class="containerHtml">
+      <div class="headHtml">
+        <h1>Epistulae ad Caesarem senem de re publica</h1>
+      </div>
+      <div class="aboutHtml">
+        <p>Maintained by: Paul Reichetanz (paul.reichetanz@uni-rostock.de)<br>
+					Last modified: Friday, 27.03.2018<br>
+					<a href="#">About this site</a>
+				</p>
+      </div>
+      <div class="navHtml">
+        <div class="navText">
+          <h3>Navigation</h3>
+            <ul>
+              <li><a href="index.html">Startseite</a></li>
+              <li><a href="bibliographie.html">Bibliographie</a></li>
+              <li><a href="text.html">Text</a></li>
+              <li><a href="#">Impressum</a></li>
+            </ul>
+        </div>
+      </div>
+      <div id="TEI">
+        Sadly, this page will not work in Internet Explorer and some older browsers. We suggest you use a newer version of Chrome or Firefox.
+      </div>
+      <div class="picHtml">
+        <div class="info-wrapper">
+          <h3>Apparatus criticus</h3>
+          <div class="info"></div>
+        </div>
+
+        <div class="info-wrapper2">
+          <h3>Index argumentorum</h3>
+          <div class="info2"></div>
+        </div>
+      </div>
+      <div class="footHtml">
+        <a href="#">Zurück</a>
+      </div>
+    </div>
+
+    <script src="build/CETEI.js"></script>
+
+    <script>
+      var CETEIcean = new CETEI();
+      CETEIcean.getHTML5('xml/Ps_Sallust.xml', function(data) {
+        document.getElementById("TEI").innerHTML = "";
+        document.getElementById("TEI").appendChild(data);
+        CETEIcean.addStyle(document, data);
+      });
+
+      // Alternatively, use then()
+      // (new CETEI).getHTML5('testTEI.xml').then(function(data){
+      //   document.getElementById("TEI").appendChild(data);
+      // });
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="build/PS-Sallust-critical.js"></script>
+  </body>
+</html>

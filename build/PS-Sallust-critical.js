@@ -1,9 +1,8 @@
 $(document).ready(function () {
   $("tei-cit").append("<span'>*</span>")
   $("tei-app").append("<span'>*</span>")
-// TO DO: Das Lemma im Text unterstrichen statt * dahinter
   $(document).on("mouseenter", "tei-app", function () {
-    $(this).css({"background-color": "yellow"});
+    $(this).css({"background-color": "#DCF1FF"});
     var rdg = $(this).children("tei-rdg");
     var note = $(this).children("tei-note").first().text();
 
@@ -22,7 +21,7 @@ $(document).ready(function () {
       var type = $(this).attr("type") ? $(this).attr("type") : "";
       var text = $(this).text() ? $(this).text() : "";
       if (type === "variation-absent") {
-        $(".info").append("<p>" + lem + " <em>om.</em>" + " <em>" + witDetail + "</em> " + siglum + "</p>");
+        $(".info").append("<p>" + lem + "] <em>om.</em>" + " <em>" + witDetail + "</em> " + siglum + "</p>");
       }
       else if (type === "variation-present") {
         $(".info").append("<p>" + n + " <em>in textu</em>" + " <em>" + witDetail + "</em> " + siglum + "</p>");
@@ -49,6 +48,9 @@ $(document).ready(function () {
       else if (type === "correction-deletion") {
         $(".info").append("<p>" + n + "] " + text + " <em>del.</em> " + " <em>" + witDetail + "</em> " + siglum + "</p>");
       }
+      else if (type === "correction-defence") {
+        $(".info").append("<p>" + n + "] " + text + " <em>def.</em> " + " <em>" + witDetail + "</em> " + siglum + "</p>");
+      }
       else if (type === "correction-substitution") {
         var del = $(this).find("tei-del").first().text();
         var add = $(this).find("tei-add").first().text();
@@ -63,7 +65,8 @@ $(document).ready(function () {
         $(".info").append("<p>" + $rdg.text() + "</p>");
       }
       else {
-        $(".info").append("<p>" + lem + "] " + text + " " + siglum + " <em>" + type + "</em></p>");
+        $(".info").append("<p>" + lem + "] " + text + " " + " <em>" + type + " </em>" + siglum + "</p>");
+        //$(".info").append("<p>" + lem + "] " + text + " " + siglum + " <em>" + type + "</em></p>");
       }
     });
     $(".info").append("<p>" + note + "</p>");
@@ -72,6 +75,7 @@ $(document).ready(function () {
     $(this).css({"background-color": "inherit"});
     $(this).children(".rdg-info").remove();
   });
+
   //add popup for quote citations
   $(document).on("mouseenter", "tei-cit", function () {
     $(this).css({"background-color": "yellow"});
@@ -85,5 +89,20 @@ $(document).ready(function () {
   $(document).on("mouseleave", "tei-cit", function () {
     $(this).css({"background-color": "inherit"});
     $(this).children(".bibl-info").remove();
+  });
+});
+//displays index argumentorum on mouseover
+$(document).ready(function () {
+  $("tei-seg").append("")
+  $(document).on("mouseenter", "tei-seg", function () {
+    $(this).css({"background-color": "#C8E8DD"});
+    $(".info2").children().remove();
+    var arg = $(this).children("tei-note").first().text();
+    $(".info2").append("<p>" + arg + "</p>");
+  });
+
+  $(document).on("mouseleave", "tei-seg", function () {
+    $(this).css({"background-color": "inherit"});
+    $(this).children(".arg-info").remove();
   });
 });
