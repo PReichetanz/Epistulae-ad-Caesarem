@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  $("tei-cit").append("<span'>*</span>")
-  $("tei-app").append("<span'>*</span>")
+  $("tei-cit").append("<span>*</span>")
+  $("tei-app").append("<span>*</span>")
   $(document).on("mouseenter", "tei-app", function () {
     $(this).css({"background-color": "#DCF1FF"});
     var rdg = $(this).children("tei-rdg");
@@ -94,7 +94,7 @@ $(document).ready(function () {
 //displays index argumentorum on mouseover
 $(document).ready(function () {
   $("tei-seg").append("")
-  $(document).on("mouseenter", "tei-seg", function () {
+  $(document).on("click", "tei-seg", function () {
     $(this).css({"background-color": "#C8E8DD"});
     $(".info2").children().remove();
     var arg = $(this).children("tei-note").first().text();
