@@ -1039,9 +1039,9 @@ tei-normalization {
   /* Empty Rule Set */
 }
 tei-note{
-  /*
-  display: block;
-  margin: 1.5em auto 1.5em auto;
+
+  display: none;
+  /*margin: 1.5em auto 1.5em auto;
   padding: .5em 1.5em 1.5em 1.5em;
   border: 1px solid black;
   border-radius: 15px;

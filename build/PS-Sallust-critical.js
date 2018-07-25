@@ -97,12 +97,15 @@ $(document).ready(function () {
   $(document).on("click", "tei-seg", function () {
     $(this).css({"background-color": "#C8E8DD"});
     $(".info2").children().remove();
-    var arg = $(this).children("tei-note").first().text();
-    $(".info2").append("<p>" + arg + "</p>");
+    var arg1 = $(this).children("tei-note:nth-child(1)").text();
+    var arg2 = $(this).children("tei-note:nth-child(2)").text();
+    $(".info2").append("<b>Pro</b>" + "<p>" + arg1 + "</p>" + "<b>Contra</b>" + "<p>" + arg2 + "</p>");
   });
-
+//removes the background-color after the mouse leaves sentences
   $(document).on("mouseleave", "tei-seg", function () {
     $(this).css({"background-color": "inherit"});
-    $(this).children(".arg-info").remove();
   });
 });
+//old version of displaying Index argumentorum
+/*var arg = $(this).children("tei-note").first().text();
+$(".info2").append("<p>" + arg + "</p>");*/

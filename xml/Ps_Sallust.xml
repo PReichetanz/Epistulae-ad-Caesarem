@@ -379,9 +379,16 @@
           <!--Each new major section (e.g., book, volume) has a new <div>.-->
             <p n="1">1
               <seg n="1" xml:id="2,1,1">(1) Scio ego, quam difficile atque asperum factu sit consilium dare regi aut imperatori, postremo quoiquam mortali, quoius opes in excelso sunt, quippe cum et illis consultorum copiae adsint neque de futuro quisquam satis callidus satisque prudens sit.
-                  <note class="argument" target="2,1,1" xml:id="arg-2,1,1">
-                    <p>2,1,1: This is a test note on 2,1,1 and it seems to be quite long in order to check whether it works how it should.</p>
-                  </note>
+                  <note class="argPro" target="2,1,1" xml:id="arg-2,1,1">2,1,1: This is a test argument and it is a pro argument.</note>
+                  <note class="argCon">2,1,1: This is contra argument.</note>
+<!--<argPro>
+<p>2,1,1: This is a test argument and it is a pro argument.</p>
+</argPro>
+<argCon>
+  <p>2,1,1: This is a test argument and it is a contra argument.</p>
+</argCon>-->
+
+
               </seg>
               <seg n="2" xml:id="2,1,2">(2) quin etiam saepe prava magis quam bona consilia prospere eveniunt, quia plerasque res fortuna ex libidine sua agitat.
                   <note class="argument" target="2,1,2" xml:id="arg-2,1,2">
