@@ -1962,22 +1962,33 @@ ul {
   list-style-type: none;
 }
 
-ul > li {
-  align-content: space-around;
-  text-indent: -2em;
-  font-size: 18px;
+div.navText > ul > li {
   padding-bottom: 20px;
+  text-indent: -2em;
 }
 
-.navText > ul > li > a {
+div.navText > ul > li > a {
   text-decoration: none;
   padding: 5px;
   border: 2px solid #C8E8DD;
-
+  align-content: space-around;
+  font-size: 18px;
 }
 
 .navText > ul > li > a:hover {
-  background-color: #C8E8DD;;
+  background-color: #C8E8DD;
+}
+
+li.bibliographie {
+  display: inline-block;
+  width: auto;
+  border: 2px solid #C8E8DD;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+li.bibliographie:hover {
+  background-color: #C8E8DD;
 }
 
 .textHtml {
@@ -1990,8 +2001,14 @@ ul > li {
   padding-left: 10px;
 }
 
-.div > a > img {
-  display: block;
+.picHtml > p a {
+  text-decoration: none;
+  border: 2px solid #C8E8DD;
+  padding: 5px;
+}
+
+.picHtml > p a:hover {
+  background-color: #C8E8DD;
 }
 
 div > a {
@@ -2001,9 +2018,6 @@ div > a {
   display: block;
 }
 
-div > a:hover {
-}
-
 .footHtml {
   grid-area: 4 / 1 / 5 / 4;
   border-top: 1px solid black;
@@ -2011,8 +2025,14 @@ div > a:hover {
   margin-bottom: 15px;
 }
 
-.footHtml > a {
+.footHtml > p a {
+  text-decoration: none;
+  border: 2px solid #C8E8DD;
+  padding: 5px;
+}
 
+.footHtml > p a:hover {
+  background-color: #C8E8DD;
 }
 
 .argument {
@@ -2026,4 +2046,8 @@ table {
 
 h1, h3, h4, head {
   font-family: Arvo, Georgia, sans-serif;
+}
+
+#manuscripts, #early-editions, #modern-editions, #conspectus {
+  display: none;
 }

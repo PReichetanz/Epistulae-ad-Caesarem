@@ -378,24 +378,18 @@
           <h3>Epistula 2</h3>
           <!--Each new major section (e.g., book, volume) has a new <div>.-->
             <p n="1">1
-              <seg n="1" xml:id="2,1,1">(1) Scio ego, quam difficile atque asperum factu sit consilium dare regi aut imperatori, postremo quoiquam mortali, quoius opes in excelso sunt, quippe cum et illis consultorum copiae adsint neque de futuro quisquam satis callidus satisque prudens sit.
-                  <note class="argPro" target="2,1,1" xml:id="arg-2,1,1">2,1,1: This is a test argument and it is a pro argument.</note>
-                  <note class="argCon">2,1,1: This is contra argument.</note>
-<!--<argPro>
-<p>2,1,1: This is a test argument and it is a pro argument.</p>
-</argPro>
-<argCon>
-  <p>2,1,1: This is a test argument and it is a contra argument.</p>
-</argCon>-->
-
-
+              <seg n="1" xml:id="seg_2-1-1">(1) Scio ego, quam difficile atque asperum factu sit consilium dare regi aut imperatori,
+                postremo quoiquam mortali, quoius opes in excelso sunt, quippe cum et illis consultorum copiae adsint
+                neque de futuro quisquam satis callidus satisque prudens sit.
+                  <note type="argPro" target="seg_2-1-1">2.1.1: This is a test argument and it is a pro argument.</note>
+                  <note type="argPro" target="seg_2-1-1"></note>
+                  <note type="argCon" target="seg_2-1-1">2.1.1: This is contra argument.</note>
               </seg>
-              <seg n="2" xml:id="2,1,2">(2) quin etiam saepe prava magis quam bona consilia prospere eveniunt, quia plerasque res fortuna ex libidine sua agitat.
-                  <note class="argument" target="2,1,2" xml:id="arg-2,1,2">
-                    <p>Test for note #2.</p>
-                  </note>
+              <seg n="2" xml:id="seg_2-1-2">(2) quin etiam saepe prava magis quam bona consilia prospere eveniunt, quia plerasque res fortuna ex libidine sua agitat.
+                  <note type="argPro" target="seg_2-1-2">2.1.2: Pro for note #2.</note>
+                  <note type="argCon" target="seg_2-1-2">2.1.2: Con for sentence 2.</note>
               </seg>
-              <seg n="3">(3) sed mihi studium fuit adulescentulo rem publicam capessere, atque in ea cognoscenda multam magnamque curam habui: non ita ut magistratum modo caperem, quem
+              <seg n="3" xml:id="seg_2-1-3">(3) sed mihi studium fuit adulescentulo rem publicam capessere, atque in ea cognoscenda multam magnamque curam habui: non ita ut magistratum modo caperem, quem
                 <app>
                   <lem>multi</lem>
                   <rdg wit="#V" type="ex alia litt. corr.">u</rdg>
@@ -405,15 +399,23 @@
                   <lem>cognitam</lem>
                   <rdg wit="edd.vett."/>
                 </app>
-                  habuerim.</seg>
-              <seg n="4">(4) itaque mihi multa cum animo agitanti consilium fuit famam modestiamque meam post tuam dignitatem haberei et quoius rei lubet periculum facere, dum quid tibi ex eo gloriae
+                  habuerim.
+                <note type="argPro" target="seg_2-1-3">2.1.3: Sentence 3.</note>
+                <note type="argCon" target="seg_2-1-3">2.1.3: Con for sentence 3.</note>
+              </seg>
+              <seg n="4" xml:id="seg_2-1-3">(4) itaque mihi multa cum animo agitanti consilium fuit famam modestiamque meam post tuam dignitatem haberei et quoius rei lubet periculum facere, dum quid tibi ex eo gloriae
                 <app>
                   <lem>acciderit</lem>
                   <rdg wit="#Ald.">accederet</rdg>
                 </app>.
+                <note type="argPro" target="seg_2-1-4">2.1.4: Pro for note #4.</note>
+                <note type="argCon" target="seg_2-1-4">2.1.4: Con for sentence 4.</note>
               </seg>
-              <seg n="5">(5) idque non temere neque ex fortuna tua decrevi, sed quia in te praeter ceteras artem unam egregie mirabilem comperi, semper tibi maiorem in adversis quam in secundis rebus animum esse.</seg>
-              <seg n="6">(6) sed per ceteros mortalis illa res clarior est, quod prius defessi sunt homines laudando atque admirando munificentiam tuam,
+              <seg n="5" xml:id="seg_2-1-5">(5) idque non temere neque ex fortuna tua decrevi, sed quia in te praeter ceteras artem unam egregie mirabilem comperi, semper tibi maiorem in adversis quam in secundis rebus animum esse.
+                <note type="argPro" target="seg_2-1-5">2.1.5: This is a test argument and it is a pro argument.</note>
+                <note type="argCon" target="seg_2-1-5">2.1.5: This is contra argument.</note>
+              </seg>
+              <seg n="6" xml:id="seg_2-1-6">(6) sed per ceteros mortalis illa res clarior est, quod prius defessi sunt homines laudando atque admirando munificentiam tuam,
                 <app>
                   <lem xml:id="lem-quantu">quam tu in faciundo</lem>
                   <rdg wit="#V">quantu in faciundo</rdg>
@@ -423,7 +425,10 @@
                   <rdg wit="#Rom. #Kurf. #Pal." type="om.">in</rdg>
                   <rdg wit="#Jo." type="def. coll. I 5,8">in</rdg>
                 </app>
-                quae gloria digna essent.</seg>
+                quae gloria digna essent.
+                <note type="argPro" target="seg_2-1-6">2.1.6: This is a test argument and it is a pro argument.</note>
+                <note type="argCon" target="seg_2-1-6">2.1.6: This is contra argument.</note>
+              </seg>
             </p>
             <p n="2">2
               <seg n="1">(1) Equidem mihi decretum est nihil tam ex alto

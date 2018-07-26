@@ -91,21 +91,41 @@ $(document).ready(function () {
     $(this).children(".bibl-info").remove();
   });
 });
-//displays index argumentorum on mouseover
+
+//displays index argumentorum on click
 $(document).ready(function () {
   $("tei-seg").append("")
   $(document).on("click", "tei-seg", function () {
     $(this).css({"background-color": "#C8E8DD"});
     $(".info2").children().remove();
-    var arg1 = $(this).children("tei-note:nth-child(1)").text();
-    var arg2 = $(this).children("tei-note:nth-child(2)").text();
-    $(".info2").append("<b>Pro</b>" + "<p>" + arg1 + "</p>" + "<b>Contra</b>" + "<p>" + arg2 + "</p>");
+    var arg1 = $(this).children("[type=argPro]").text();
+    var arg2 = $(this).children("[type=argCon]").text();
+    $(this).each(function () {
+    $(".info2").append("<b>Pro</b>" + "<p>" + arg1 + "</p>");
   });
+    $(this).each(function () {
+    $(".info2").append("<b>Contra</b>" + "<p>" + arg2 + "</p>");
+  });
+});
+//to do: distinguish different <notes> with same target from each other when displayed in .info2
+
 //removes the background-color after the mouse leaves sentences
   $(document).on("mouseleave", "tei-seg", function () {
     $(this).css({"background-color": "inherit"});
   });
 });
-//old version of displaying Index argumentorum
+
+/*old version
+$(document).ready(function () {
+  $("tei-seg").append("")
+  $(document).on("click", "tei-seg", function () {
+    $(this).css({"background-color": "#C8E8DD"});
+    $(".info2").children().remove();
+    var arg1 = $(this).children("[type=argPro]").text();
+    var arg2 = $(this).children("[type=argCon]").text();
+    $(".info2").append("<b>Pro</b>" + "<p>" + arg1 + "</p>" + "<b>Contra</b>" + "<p>" + arg2 + "</p>");
+  });
+
+//oldest version of displaying Index argumentorum
 /*var arg = $(this).children("tei-note").first().text();
 $(".info2").append("<p>" + arg + "</p>");*/
