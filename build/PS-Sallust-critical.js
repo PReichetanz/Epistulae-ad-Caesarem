@@ -98,16 +98,23 @@ $(document).ready(function () {
   $(document).on("click", "tei-seg", function () {
     $(this).css({"background-color": "#C8E8DD"});
     $(".info2").children().remove();
-    var arg1 = $(this).children("[type=argPro]").text();
-    var arg2 = $(this).children("[type=argCon]").text();
-    $(this).each(function () {
-    $(".info2").append("<b>Pro</b>" + "<p>" + arg1 + "</p>");
+    var arg1 = $(this).children("[type=argPro]");
+    var arg2 = $(this).children("[type=argCon]");
+    var i = arg1.length;
+    var j = arg2.length;
+    if (arg1.length > 0) {
+      $(".info2").append("<p><b>Pro</b></p>");
+      for (i=0; i < arg1.length; i++) {
+        $(".info2").append("<p>" + arg1[i].innerText + "</p>");
+      }
+    }
+    if (arg2.length > 0) {
+      $(".info2").append("<p><b>Contra</b></p>");
+      for (j=0; j < arg2.length; j++) {
+        $(".info2").append("<p>" + arg2[j].innerText + "</p>");
+      }
+    }
   });
-    $(this).each(function () {
-    $(".info2").append("<b>Contra</b>" + "<p>" + arg2 + "</p>");
-  });
-});
-//to do: distinguish different <notes> with same target from each other when displayed in .info2
 
 //removes the background-color after the mouse leaves sentences
   $(document).on("mouseleave", "tei-seg", function () {
@@ -115,7 +122,17 @@ $(document).ready(function () {
   });
 });
 
-/*old version
+// older version for Index argumentorum
+
+/* version #3
+$(this).each(function () {
+$(".info2").append("<b>Pro</b>" + "<p>" + arg1 + "</p>");
+});
+$(this).each(function () {
+$(".info2").append("<b>Contra</b>" + "<p>" + arg2 + "</p>");
+});*/
+
+/* version #2
 $(document).ready(function () {
   $("tei-seg").append("")
   $(document).on("click", "tei-seg", function () {
@@ -126,6 +143,6 @@ $(document).ready(function () {
     $(".info2").append("<b>Pro</b>" + "<p>" + arg1 + "</p>" + "<b>Contra</b>" + "<p>" + arg2 + "</p>");
   });
 
-//oldest version of displaying Index argumentorum
+// version #1 of displaying Index argumentorum
 /*var arg = $(this).children("tei-note").first().text();
 $(".info2").append("<p>" + arg + "</p>");*/
